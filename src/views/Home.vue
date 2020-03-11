@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1 class="headline center">El blog de Clonbg</h1>
-    <img alt="Logo" src="../assets/logo_clonbg_es.jpg" class="tamanoImg">
+    <img src="../assets/logo_clonbg_es.jpg" class="img-fluid" alt="Responsive image">
     <div class="sections">
       <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
         <h2 class="center">{{section}}</h2>
@@ -43,7 +43,7 @@ export default {
 img {
   display: block;
   margin: 0 auto;
-  width: 150px;
+  width: 300px;
 }
 
 h2 {
@@ -72,7 +72,7 @@ p {
 }
 
 .sections {
-  max-width: 40vw;
+  max-width: 60vw;//Anchura del articulo desde esta vista
   margin: 0 auto;
   margin-top: 4rem;
 }

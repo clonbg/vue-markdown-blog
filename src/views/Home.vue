@@ -1,17 +1,32 @@
 <template>
   <div class="home">
     <h1 class="headline center">El blog de Clonbg</h1>
-    <img src="../assets/logo_clonbg_es.jpg" class="img-fluid" alt="Responsive image">
-    <div class="sections">
-      <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
-        <h2 class="center">{{section}}</h2>
-        <div class="section" v-for="entry in entries[section]" :key="entry.id">
-          <div class="entry">
-            <h3 @click="$router.push({name: entry.id})">
-              {{entry.title}}
-              <span class="subtitle">{{entry.date}}</span>
-            </h3>
-            <p>{{entry.description}}</p>
+    <img src="../assets/logo_clonbg_es.jpg" class="img-fluid" alt="Logo" />
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="sections">
+          <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
+            <h2 class="center">{{section}}</h2>
+            <div class="section" v-for="entry in entries[section]" :key="entry.id">
+              <div class="entry">
+                <div class="row">
+                  <h3 @click="$router.push({name: entry.id})">
+                    <div class="row">
+                      <div class="col-6">{{entry.title}}</div>
+                      <div class="col-6">
+                        <img :src="`${publicPath}${entry.id}${entry.imagen}`" class="img-fluid" />
+                      </div>
+                      <div class="row pl-4 pt-3">
+                        <p>
+                          <span class="subtitle">{{entry.date}}</span>
+                        </p>
+                      </div>
+                    </div>
+                  </h3>
+                </div>
+                <p>{{entry.description}}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -20,16 +35,23 @@
 </template>
 
 <script>
-import BLOGENTRIES from '@/statics/data/blogs.json'
+import BLOGENTRIES from "@/statics/data/blogs.json";
 
 export default {
-  name: 'home',
+  name: "home",
+  data() {
+    return {
+      publicPath: process.env.BASE_URL
+    };
+  },
+
+  methods: {},
   computed: {
     entries() {
-      return BLOGENTRIES
+      return BLOGENTRIES;
     }
   }
-}
+};
 </script>
 <style lang="scss" scoped>
 .center {
@@ -61,18 +83,18 @@ h3 {
   }
   .subtitle {
     color: grey;
-    font-size: .98rem;
+    font-size: 0.98rem;
     float: right;
     font-weight: normal;
   }
 }
 
 p {
-  margin-top: .4rem;
+  margin-top: 0.4rem;
 }
 
 .sections {
-  max-width: 60vw;//Anchura del articulo desde esta vista
+  max-width: 80vw; //Anchura del articulo desde esta vista
   margin: 0 auto;
   margin-top: 4rem;
 }
@@ -85,7 +107,11 @@ p {
   margin-bottom: 4rem;
 }
 
-.tamanoImg{
-    width: 300px
+.tamanoImg {
+  width: 300px;
+}
+.borde {
+  border: #35495e solid;
+  padding: 0;
 }
 </style>

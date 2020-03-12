@@ -6,7 +6,7 @@
 </template>
 <style lang="scss" scoped>
 .blog {
-  max-width: 50vw;
+  max-width: 80vw;
   margin: 10rem auto;
 
   .back {

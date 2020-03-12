@@ -9,17 +9,19 @@
             <h2 class="center">{{section}}</h2>
             <div class="section" v-for="entry in entries[section]" :key="entry.id">
               <div class="entry">
-                <div class="row">
+                <div class="row mx-auto">
                   <h3 @click="$router.push({name: entry.id})">
-                    <div class="row">
-                      <div class="col-6">{{entry.title}}</div>
+                    <div class="row mx-auto mb-2">
+                      <div class="col-6 tamanoTitulo">{{entry.title}}</div>
                       <div class="col-6">
-                        <img :src="`${publicPath}${entry.id}${entry.imagen}`" class="img-fluid" />
+                        <img
+                          :src="`${publicPath}${entry.id}${entry.imagen}`"
+                          class="img-fluid float-md-right"
+                        />
                       </div>
-                      <div class="row pl-4 pt-3">
-                        <p>
-                          <span class="subtitle">{{entry.date}}</span>
-                        </p>
+                      <div class="row">
+                        
+                        <div class="col-12"><span class="subtitle ml-4">{{entry.date}}</span></div>
                       </div>
                     </div>
                   </h3>
@@ -86,6 +88,7 @@ h3 {
     font-size: 0.98rem;
     float: right;
     font-weight: normal;
+    margin-bottom: 3px;
   }
 }
 
@@ -100,7 +103,7 @@ p {
 }
 
 .section {
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 .group {
@@ -113,5 +116,8 @@ p {
 .borde {
   border: #35495e solid;
   padding: 0;
+}
+.tamanoTitulo {
+  max-width: 500px;
 }
 </style>

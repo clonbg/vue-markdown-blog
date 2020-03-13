@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="headline center">El blog de Clonbg</h1>
+    <h1 class="headline center letra">El blog de Clonbg</h1>
     <img src="../assets/logo_clonbg_es.jpg" class="img-fluid" alt="Logo" />
     <div class="row">
       <div class="col-md-10 mx-auto">
@@ -10,23 +10,23 @@
             <div class="section" v-for="entry in entries[section]" :key="entry.id">
               <div class="entry">
                 <div class="row mx-auto">
-                  <h3 @click="$router.push({name: entry.id})">
-                    <div class="row mx-auto mb-2">
-                      <div class="col-6 tamanoTitulo">{{entry.title}}</div>
-                      <div class="col-6">
-                        <img
-                          :src="`${publicPath}${entry.id}${entry.imagen}`"
-                          class="img-fluid float-md-right"
-                        />
+                  <h3 class="text-decoration-none" @click="$router.push({name: entry.id})">
+                    <div class="row mx-auto p-0">
+                      <div class="col-6 mx-auto p-0">
+                        <img :src="`${publicPath}${entry.id}${entry.imagen}`" class="img-fluid" />
                       </div>
-                      <div class="row">
-                        
-                        <div class="col-12"><span class="subtitle ml-4">{{entry.date}}</span></div>
+                      <div style="float:left; display:inline;">
+                        <div
+                          class="alert alert-light tamanoTitulo p-0 m-0 mt-2"
+                          role="alert"
+                        >{{entry.title}}</div>
                       </div>
                     </div>
                   </h3>
+
+                  <span class="subtitle p2-2 ml-0 text-success">{{entry.date}}</span>
+                  <p>{{entry.description}}</p>
                 </div>
-                <p>{{entry.description}}</p>
               </div>
             </div>
           </div>
@@ -114,10 +114,14 @@ p {
   width: 300px;
 }
 .borde {
-  border: #35495e solid;
+  border: #508d76 solid;
   padding: 0;
 }
 .tamanoTitulo {
   max-width: 500px;
+  font-size: 80%;
+}
+.letra {
+  font-family: "Dancing Script", cursive;
 }
 </style>

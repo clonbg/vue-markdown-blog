@@ -3,30 +3,29 @@
     <h1 class="headline center letra">El blog de Clonbg</h1>
     <img src="../assets/logo_clonbg_es.jpg" class="img-fluid" alt="Logo" />
     <div class="row">
-      <div class="col-md-10 mx-auto">
+      <div class="col mx-auto">
         <div class="sections">
           <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
-            <h2 class="center">{{section}}</h2>
+            <!-- <h2 class="center">{{section}}</h2> -->
             <div class="section" v-for="entry in entries[section]" :key="entry.id">
               <div class="entry">
-                <div class="row mx-auto">
-                  <h3 class="text-decoration-none" @click="$router.push({name: entry.id})">
-                    <div class="row mx-auto p-0">
-                      <div class="col-6 mx-auto p-0">
+                <h3 class="text-decoration-none" @click="$router.push({name: entry.id})">
+                  <div class="d-flex justify-content-center">
+                    <div class="d-flex flex-column bd-highlight mb-3">
+                      <div class="p-2 bd-highlight">
                         <img :src="`${publicPath}${entry.id}${entry.imagen}`" class="img-fluid" />
                       </div>
-                      <div style="float:left; display:inline;">
+                      <div class="p-2 bd-highlight">
                         <div
                           class="alert alert-light tamanoTitulo p-0 m-0 mt-2"
                           role="alert"
                         >{{entry.title}}</div>
                       </div>
+                      <div class="p-2 bd-highlight"><span class="subtitle p2-2 ml-0 text-success">{{entry.date}}</span></div>
                     </div>
-                  </h3>
-
-                  <span class="subtitle p2-2 ml-0 text-success">{{entry.date}}</span>
-                  <p>{{entry.description}}</p>
-                </div>
+                  </div>
+                </h3>
+                <p>{{entry.description}}</p>
               </div>
             </div>
           </div>
@@ -86,7 +85,7 @@ h3 {
   .subtitle {
     color: grey;
     font-size: 0.98rem;
-    float: right;
+    float: left;
     font-weight: normal;
     margin-bottom: 3px;
   }

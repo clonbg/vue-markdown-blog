@@ -1,7 +1,8 @@
 {
-  "Posts": [
+  "stories": [
     {
       "id": "maud-sparrow",
+      "categorias": ["Linux","Git"],
       "imagen": "/gato.jpg",
       "date": "21 de Abril de 2020",
       "title": "Maud Sparrow and the Four Wicked Horses",
@@ -9,6 +10,7 @@
     },
     {
       "id": "prueba",
+      "categorias": ["Linux","VueJS"],
       "imagen": "/vuejs.jpg",
       "date": "11 de Abril de 2020",
       "title": "Una prueba muy chula, alomejor estoismo corta",

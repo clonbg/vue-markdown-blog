@@ -21,11 +21,21 @@
                           role="alert"
                         >{{entry.title}}</div>
                       </div>
-                      <div class="p-2 bd-highlight"><span class="subtitle p2-2 ml-0 text-success">{{entry.date}}</span></div>
+                      <div class="p-2 bd-highlight">
+                        <span class="subtitle p2-2 ml-0 text-success">{{entry.date}}</span>
+                      </div>
+                      <div class="p-2 bd-highlight">
+                        <span
+                        class="categorias"
+                          v-for="item in entry.categorias"
+                          :key="item.id"
+                        >{{item}}    </span>
+                      </div>
                     </div>
                   </div>
                 </h3>
-                <p>{{entry.description}}</p>
+
+                <div>{{entry.description}}</div>
               </div>
             </div>
           </div>
@@ -66,7 +76,7 @@ export default {
 img {
   display: block;
   margin: 0 auto;
-  width: 300px;
+  width: 450px;
 }
 
 h2 {
@@ -96,7 +106,7 @@ p {
 }
 
 .sections {
-  max-width: 80vw; //Anchura del articulo desde esta vista
+  max-width: 70vw; //Anchura del articulo desde esta vista
   margin: 0 auto;
   margin-top: 4rem;
 }
@@ -122,5 +132,10 @@ p {
 }
 .letra {
   font-family: "Dancing Script", cursive;
+}
+.categorias{
+  color: brown;
+  font-size: 15px;
+  padding-right: 30px;
 }
 </style>

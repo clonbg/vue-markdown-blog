@@ -1,9 +1,35 @@
 <template>
   <div class="blog">
     <router-view />
+        <Comentarios/>
     <router-link to="/" tag="a" class="back">&laquo; Back</router-link>
+
   </div>
 </template>
+
+<script>
+import Comentarios from "@/views/Comentarios.vue";
+
+export default {
+  name: "home",
+  components: {
+    Comentarios
+  },
+  data() {
+    return {
+      publicPath: process.env.BASE_URL
+    };
+  },
+
+  methods: {},
+  computed: {
+    entries() {
+      return BLOGENTRIES;
+    }
+  }
+};
+</script>
+
 <style lang="scss" scoped>
 .blog {
   max-width: 80vw;
@@ -42,7 +68,10 @@
       padding: 1rem;
     }
     img {
-      max-width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+
     }
   }
 }

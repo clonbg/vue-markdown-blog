@@ -1,104 +1,94 @@
 <template>
-<div class="container">
-  <div class="content"></div>
-  <footer class="row">
-    <div class="sozial col-xs-12 col-sm-4 col-sm-push-6">
-      <ul class="row">
-        <li class="col-xs-6 col-sm-2">
-          <a href="https://twitter.com/clonbg1" target="_blank">
-            <img class="logo" src="@/icons/twitter-brands.svg">
-          </a>
-        </li>
-        <li class="col-xs-6 col-sm-2">
-        </li>
-        <li class="col-xs-6 col-sm-2">
-          <a href="https://github.com/clonbg?tab=repositories" target="_blank">
-            <img class="logo" src="@/icons/github-alt-brands.svg">
-          </a>
-        </li>
-        <li class="col-xs-6 col-sm-2">
-        </li>
-        <li class="col-xs-6 col-sm-2">
-          <a href="mailto:clonbg@gmail.com" target="_blank">
-            <img class="logo" src="@/icons/at-solid.svg">
-          </a>
-        </li>
-      </ul>
-    </div><!-- Ende Sozial media -->
-    
-    <div class="copyright col-xs-12 col-sm-4 col-sm-pull-6">
-      <p> &copy; Clonbg </p>
-    </div><!-- Ende Copyright -->
-    
-    <div class="impressum col-xs-12 col-sm-4 col-sm-pull-6">
-      <p> Hasta el infinito </p>
-      <p> y más allá¡¡ </p>
-    </div><!-- Ende Impressum -->
-  </footer>
-</div>
+  <div class="container">
+    <div class="content"></div>
+    <footer class="row">
+      <div class="sozial col-md-4">
+        <ul class="row center">
+          <li class="col-md-2">
+            <a href="https://twitter.com/clonbg1" target="_blank">
+              <img class="logo" src="@/icons/twitter-brands.svg" />
+            </a>
+          </li>
+          <li class="col-md-3"></li>
+          <li class="col-md-2">
+            <a href="https://github.com/clonbg?tab=repositories" target="_blank">
+              <img class="logo" src="@/icons/github-alt-brands.svg" />
+            </a>
+          </li>
+          <li class="col-md-3"></li>
+          <li class="col-md-2">
+            <a href="mailto:clonbg@gmail.com" target="_blank">
+              <img class="logo" src="@/icons/at-solid.svg" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Ende Sozial media -->
+
+      <div class="copyright col-md-4">
+        <p>&copy; Clonbg</p>
+      </div>
+      <!-- Ende Copyright -->
+
+      <div class="impressum col-md-4">
+        <p>Hasta el infinito</p>
+        <p>y más allá!!</p>
+      </div>
+      <!-- Ende Impressum -->
+    </footer>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style scoped>
-body
-{
+body {
   background-color: wheat;
 }
-li
-{
+li {
   list-style-type: none;
-  margin-left: 1vw;
 }
 
-li:first-child
-{
-  margin:0;
+li:first-child {
+  margin: 0;
 }
 
-footer
-{
+footer {
   padding-top: 5vh;
   padding-bottom: 2vh;
 }
 
-.content
-{
-  height: 20vh;
+.content {
+  height: 10vh;
   background-color: lightgray;
 }
 
-.container
-{
+.container {
   background-color: beige;
 }
 
-.copyright,  .impressum
-{
+.copyright,
+.impressum {
   text-align: center;
 }
 
-.logo
-{
+.logo {
   height: 8vh;
-    
 }
 
-@media (max-width: 768px) 
-{
-  li
-  {
+@media (max-width: 768px) {
+  li {
     margin-left: 0;
     margin-bottom: 1vh;
   }
-  
-  .sozial
-  {
+
+  .sozial {
     margin-bottom: 1vh;
   }
+}
+.center {
+  text-align: center;
 }
 </style>

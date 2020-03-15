@@ -2,7 +2,7 @@
   <div class="blog">
     <router-view />
         <Comentarios/>
-    <router-link to="/" tag="a" class="back">&laquo; Back</router-link>
+    <router-link to="/" tag="a" class="back">&laquo; Atrás</router-link>
 
   </div>
 </template>

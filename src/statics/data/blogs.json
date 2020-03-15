@@ -1,20 +1,12 @@
 {
   "stories": [
     {
-      "id": "maud-sparrow",
-      "categorias": ["Linux","Git"],
-      "imagen": "/gato.jpg",
-      "date": "21 de Abril de 2020",
-      "title": "Maud Sparrow and the Four Wicked Horses",
-      "description": "Once upon a time there was a generous girl called Maud Sparrow. She was on the way to see her Albert Connor, when she decided to take a short cut through Spittleton Woods..."
-    },
-    {
-      "id": "prueba",
+      "id": "manuales-vuejs-espanol",
       "categorias": ["Linux","VueJS"],
       "imagen": "/vuejs.jpg",
-      "date": "11 de Abril de 2020",
-      "title": "Una prueba muy chula, alomejor estoismo corta",
-      "description": "Como realizar una prueba y que nadie sepa wth paar una prueba y que nadie sepa wth paar una prueba y que nadie sepa wth pasa jiar..."
+      "date": "15 de Marzo de 2020",
+      "title": "Manuales de VueJS en español",
+      "description": "Tenía guardados un par de manuales de *VueJS* que en su momento me ayudaron mucho..."
     }
   ]
 }

@@ -21,15 +21,12 @@
                           role="alert"
                         >{{entry.title}}</div>
                       </div>
-                      <div class="p-2 bd-highlight">
-                        <span class="subtitle p2-2 ml-0 text-success">{{entry.date}}</span>
-                      </div>
-                      <div class="p-2 bd-highlight">
-                        <span
+                      <div class="p-0 m-0 bd-highlight">
+                        <span class="subtitle text-success">{{entry.date}}</span><span
                         class="categorias"
                           v-for="item in entry.categorias"
                           :key="item.id"
-                        >{{item}}    </span>
+                        >-{{item}}    </span>
                       </div>
                     </div>
                   </div>
@@ -95,9 +92,6 @@ h3 {
   .subtitle {
     color: grey;
     font-size: 0.98rem;
-    float: left;
-    font-weight: normal;
-    margin-bottom: 3px;
   }
 }
 
@@ -136,6 +130,6 @@ p {
 .categorias{
   color: brown;
   font-size: 15px;
-  padding-right: 30px;
+  margin-left: 5%
 }
 </style>

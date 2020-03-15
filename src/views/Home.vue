@@ -22,11 +22,10 @@
                         >{{entry.title}}</div>
                       </div>
                       <div class="p-0 m-0 bd-highlight">
-                        <span class="subtitle text-success">{{entry.date}}</span><span
-                        class="categorias"
-                          v-for="item in entry.categorias"
-                          :key="item.id"
-                        >-{{item}}    </span>
+                        <span class="subtitle text-success">{{entry.date}}</span>
+                        <span class="categorias" v-for="item in entry.categorias" :key="item.id">
+                          <i class="fa fa-star fa-lg fa-spin"></i><span class="pl-2">{{item}}</span>
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -127,9 +126,9 @@ p {
 .letra {
   font-family: "Dancing Script", cursive;
 }
-.categorias{
+.categorias {
   color: brown;
   font-size: 15px;
-  margin-left: 5%
+  margin-left: 5%;
 }
 </style>

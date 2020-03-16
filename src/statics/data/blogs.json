@@ -2,7 +2,7 @@
   "stories": [
     {
       "id": "manuales-vuejs-espanol",
-      "categorias": ["Linux","VueJS"],
+      "categorias": ["Programación","VueJS"],
       "imagen": "/vuejs.jpg",
       "date": "15 de Marzo de 2020",
       "title": "Manuales de VueJS en español",

@@ -142,5 +142,6 @@ p {
 }
 .logo {
   width: 30vh;
+  margin-top: 3vh;
 }
 </style>

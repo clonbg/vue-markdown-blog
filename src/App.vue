@@ -1,33 +1,33 @@
 <template>
   <div id="app">
     <div>
-      <keep-alive include="Blog.vue,Comentarios.vue,Footer.vue,Home.vue">
-  <router-view></router-view>
-</keep-alive>
+      <router-view v-if="!$route.meta.keepAlive"></router-view>
+      <keep-alive>
+        <router-view v-if="$route.meta.keepAlive"></router-view>
+      </keep-alive>
       <!-- <router-view/> -->
-      <Footer/>
+      <Footer />
     </div>
   </div>
 </template>
 
 <script>
-import Footer from '@/views/Footer.vue'
+import Footer from "@/views/Footer.vue";
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Footer
   }
-}
+};
 </script>
 
 <style scoped>
 #app {
-  font-family: 'Ubuntu', 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   max-width: 120vw;
   margin: 0 auto;
 }
-
 </style>

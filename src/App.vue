@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <div>
-      <router-view/>
+      <keep-alive include="Blog.vue,Comentarios.vue,Footer.vue,Home.vue">
+  <router-view></router-view>
+</keep-alive>
+      <!-- <router-view/> -->
       <Footer/>
     </div>
   </div>

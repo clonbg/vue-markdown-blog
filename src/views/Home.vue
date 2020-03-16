@@ -37,7 +37,7 @@
                   </div>
                 </h3>
 
-                <div>{{entry.description}}</div>
+                <div v-html="entry.description"></div>
               </div>
             </div>
           </div>

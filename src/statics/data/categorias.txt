@@ -1,4 +1,4 @@
 Linux
 Git
 VueJS
-Programación
+Javascript

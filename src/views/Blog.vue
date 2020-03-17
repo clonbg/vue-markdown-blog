@@ -1,14 +1,15 @@
 <template>
   <div class="blog">
     <router-view />
-        <Comentarios/>
+    <Comentarios />
     <router-link to="/" tag="a" class="back">&laquo; Atrás</router-link>
-
   </div>
 </template>
 
 <script>
 import Comentarios from "@/views/Comentarios.vue";
+/* eslint-disable */
+import BLOGENTRIES from "@/statics/data/blogs.json";
 
 export default {
   name: "home",
@@ -41,7 +42,6 @@ export default {
       }
     }
   }
-
 };
 </script>
 
@@ -57,9 +57,9 @@ export default {
     text-decoration: none;
     padding: 10px 15px;
     border: 1px solid currentColor;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     display: inline-block;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     &:hover {
       background-color: transparent;
       color: #42b883;
@@ -68,7 +68,7 @@ export default {
   /deep/ {
     h1 {
       font-size: 3rem;
-      margin-bottom: .2rem;
+      margin-bottom: 0.2rem;
       color: #42b883;
     }
     h4 {
@@ -79,14 +79,13 @@ export default {
       overflow-x: auto;
       background-color: #35495e;
       color: white;
-      border-radius: .3rem;
+      border-radius: 0.3rem;
       padding: 1rem;
     }
     img {
-    max-width: 100%;
-    margin: 0 auto;
-    display: block;
-
+      max-width: 100%;
+      margin: 0 auto;
+      display: block;
     }
   }
 }

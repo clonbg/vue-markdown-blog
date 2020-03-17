@@ -9,10 +9,7 @@
             <!-- <h2 class="center">{{section}}</h2> -->
             <div class="section" v-for="entry in entries[section]" :key="entry.id">
               <div class="entry">
-                <h3
-                  class="text-decoration-none"
-                  @click="$router.push({name: entry.id})"
-                >
+                <h3 class="text-decoration-none" @click="$router.push({name: entry.id})">
                   <div class="d-flex justify-content-center">
                     <div class="d-flex flex-column bd-highlight mb-3">
                       <div class="p-2 bd-highlight">
@@ -48,10 +45,14 @@
 </template>
 
 <script>
+/* eslint-disable */
 import BLOGENTRIES from "@/statics/data/blogs.json";
 
 export default {
   name: "home",
+  components: {
+    BLOGENTRIES
+  },
   data() {
     return {
       publicPath: process.env.BASE_URL

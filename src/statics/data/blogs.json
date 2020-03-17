@@ -2,11 +2,19 @@
   "stories": [
     {
       "id": "manuales-vuejs-espanol",
-      "categorias": ["Javascript","VueJS"],
+      "categorias": ["Javascript", "VueJS"],
       "imagen": "/vuejs.jpg",
       "date": "15 de Marzo de 2020",
       "title": "Manuales de VueJS en español",
       "description": "Tenía guardados un par de manuales de <strong>VueJS</strong> que en su momento me ayudaron mucho..."
+    },
+    {
+      "id": "chuleta-de-markdown",
+      "categorias": ["Markdown"],
+      "imagen": "/markdown.png",
+      "date": "17 de Marzo de 2020",
+      "title": "Mi chuleta de Markdown",
+      "description": "Guardo como oro en paño un archivo donde consulto cualquier duda que tengo cuando estoy escribiendo..."
     }
   ]
 }

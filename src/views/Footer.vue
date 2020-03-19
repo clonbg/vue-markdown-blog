@@ -2,35 +2,43 @@
   <div class="container">
     <div class="content"></div>
     <footer class="row">
-      <div class="sozial col-md-4">
-        <ul class="row center">
-          <li class="col-md-2">
+      <div class="sozial col-4">
+        <ul class="row center displayBlock">
+          <li class="col-2">
             <a href="https://twitter.com/clonbg1" target="_blank">
               <img class="logo" src="@/icons/twitter-brands.svg" />
             </a>
           </li>
-          <li class="col-md-3"></li>
-          <li class="col-md-2">
+          <li class="col-1"></li>
+          <li class="col-2">
             <a href="https://github.com/clonbg?tab=repositories" target="_blank">
               <img class="logo" src="@/icons/github-alt-brands.svg" />
             </a>
           </li>
-          <li class="col-md-3"></li>
-          <li class="col-md-2">
+             <li class="col-1"></li>
+          <li class="col-2">
+            <a :href="publicPath+'feedClonbg_es.xml'" target="_blank">
+              <img class="logo" src="@/icons/rss.svg" />
+            </a>
+          </li>
+          <li class="col-1"></li>
+          <li class="col-2">
             <a href="mailto:clonbg@gmail.com" target="_blank">
               <img class="logo" src="@/icons/at-solid.svg" />
             </a>
           </li>
+       
+          <li class="col-1"></li>
         </ul>
       </div>
       <!-- Ende Sozial media -->
 
-      <div class="copyright col-md-4">
+      <div class="copyright col-4">
         <p>&copy; Clonbg</p>
       </div>
       <!-- Ende Copyright -->
 
-      <div class="impressum col-md-4">
+      <div class="impressum col-4">
         <p>Hasta el infinito</p>
         <p>y más allá!!</p>
       </div>
@@ -40,7 +48,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      publicPath: process.env.BASE_URL
+    };
+  }
+};
 </script>
 
 <style scoped>
@@ -90,5 +104,8 @@ footer {
 }
 .center {
   text-align: center;
+}
+.displayBlock{
+  display:inline-flex
 }
 </style>

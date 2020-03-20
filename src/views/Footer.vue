@@ -2,47 +2,47 @@
   <div class="container">
     <div class="content"></div>
     <footer class="row">
-      <div class="sozial col-4">
-        <ul class="row center displayBlock">
-          <li class="col-2">
-            <a href="https://twitter.com/clonbg1" target="_blank">
-              <img class="logo" src="@/icons/twitter-brands.svg" />
-            </a>
-          </li>
-          <li class="col-1"></li>
-          <li class="col-2">
-            <a href="https://github.com/clonbg?tab=repositories" target="_blank">
-              <img class="logo" src="@/icons/github-alt-brands.svg" />
-            </a>
-          </li>
-             <li class="col-1"></li>
-          <li class="col-2">
-            <a :href="publicPath+'feedClonbg_es.xml'" target="_blank">
-              <img class="logo" src="@/icons/rss.svg" />
-            </a>
-          </li>
-          <li class="col-1"></li>
-          <li class="col-2">
-            <a href="mailto:clonbg@gmail.com" target="_blank">
-              <img class="logo" src="@/icons/at-solid.svg" />
-            </a>
-          </li>
-       
-          <li class="col-1"></li>
-        </ul>
-      </div>
-      <!-- Ende Sozial media -->
+      <div class="container">
+        <div class="row row-cols-3 sozial">
+          <!-- Columna 1 -->
+          <div class="col">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+                <div class="col">
+                  <a href="https://twitter.com/clonbg1" target="_blank">
+                    <img class="logo" src="@/icons/twitter-brands.svg" />
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="https://github.com/clonbg?tab=repositories" target="_blank">
+                    <img class="logo" src="@/icons/github-alt-brands.svg" />
+                  </a>
+                </div>
+                <div class="col">
+                  <a :href="publicPath+'feedClonbg_es.xml'" target="_blank">
+                    <img class="logo" src="@/icons/rss.svg" />
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="mailto:clonbg@gmail.com" target="_blank">
+                    <img class="logo" src="@/icons/at-solid.svg" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Columna 2 -->
 
-      <div class="copyright col-4">
-        <p>&copy; Clonbg</p>
-      </div>
-      <!-- Ende Copyright -->
+          <div class="col copyright">&copy; Clonbg</div>
+          <!-- Columna 3 -->
 
-      <div class="impressum col-4">
-        <p>Hasta el infinito</p>
-        <p>y más allá!!</p>
+          <div class="col impressum">
+            <p>Hasta el infinito</p>
+            <p>y más allá!!</p>
+          </div>
+        </div>
       </div>
-      <!-- Ende Impressum -->
+      
     </footer>
   </div>
 </template>
@@ -101,11 +101,5 @@ footer {
   .sozial {
     margin-bottom: 1vh;
   }
-}
-.center {
-  text-align: center;
-}
-.displayBlock{
-  display:inline-flex
 }
 </style>

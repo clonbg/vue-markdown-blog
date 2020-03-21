@@ -47,7 +47,6 @@
 <script>
 /* eslint-disable */
 import BLOGENTRIES from "@/statics/data/blogs.json";
-import * as fs from 'fs-web';
 export default {
   name: "home",
   components: {
@@ -56,8 +55,6 @@ export default {
   data() {
     return {
       publicPath: process.env.BASE_URL,
-      
-      textoRss: "Prueba"
     };
   },
 
@@ -66,17 +63,6 @@ export default {
     entries() {
       return BLOGENTRIES;
     }
-  },
-  created: function() {
-
-fs.writeFile(this.publicPath+'feedClonbg_es.xml', 'línea 1\nLínea 2', error => {
-  if (error)
-    console.log(error);
-  else
-    console.log('El archivo fue creado');
-});
-
-console.log('última línea del programa');
   }
 
 };

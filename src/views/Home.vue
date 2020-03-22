@@ -35,6 +35,7 @@
                 </h3>
 
                 <div v-html="entry.description"></div>
+                <!-- <button class="btn btn-success" @click="crearXml">Crear XML</button> -->
               </div>
             </div>
           </div>
@@ -47,6 +48,7 @@
 <script>
 /* eslint-disable */
 import BLOGENTRIES from "@/statics/data/blogs.json";
+
 export default {
   name: "home",
   components: {
@@ -54,17 +56,27 @@ export default {
   },
   data() {
     return {
-      publicPath: process.env.BASE_URL,
+      publicPath: process.env.BASE_URL
     };
   },
 
-  methods: {},
+  methods: {
+    crearXml: function() {
+      console.log("se ejecuta la funcion");
+      const fs = require("fs");
+      const write = require("write");
+      sync(`${this.publicPath}feedClonbg_es.xml`, "some data...", {
+        increment: true
+      });
+    }
+    // `${this.publicPath}feedClonbg_es.xml`
+  },
+
   computed: {
     entries() {
       return BLOGENTRIES;
     }
   }
-
 };
 </script>
 <style lang="scss" scoped>

@@ -14,25 +14,34 @@
 <height>65</height> 
 </image>
 <item>
-	<title>Buscar archivos en Linux por nombre o contenido</title>
-	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/buscar-en-ficheros</link>
-	<pubDate>Sun, 22 Mar 2020 10:33:26 -0400</pubDate>		
-		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/buscar-en-ficheros/search.png" class="webfeedsFeaturedVisual" alt="" /><p>Buscar archivos por nombre o contenido a través de la terminal de linux</p>]]></description>
-	<guid>https://silly-goldberg-68d2eb.netlify.com/buscar-en-ficheros/search.png</guid>
+	<title>Manuales de VueJS</title>
+	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/manuales-vuejs-espanol</link>
+	<pubDate>Sun, 15 Mar 2020 10:33:26 -0400</pubDate>		
+		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/manuales-vuejs-espanol/vuejs.jpg" class="webfeedsFeaturedVisual" alt="" /><p>Tenía guardados un par de manuales de <strong>VueJS</strong> que en su momento me ayudaron mucho... <a
+			href="https://silly-goldberg-68d2eb.netlify.com/#/stories/manuales-vuejs-espanol"
+			target="_blank"
+			>Leer más</a></p>]]></description>
+	<guid>https://silly-goldberg-68d2eb.netlify.com/manuales-vuejs-espanol/vuejs.jpg</guid>
 </item>
 <item>
 	<title>Mi chuleta de markdown</title>
 	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/chuleta-de-markdown</link>
 	<pubDate>Thu, 17 Mar 2020 10:33:26 -0400</pubDate>		
-		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/chuleta-de-markdown/markdown.png" class="webfeedsFeaturedVisual" alt="" /><p>Manual de Markdown para consulta</p>]]></description>
+		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/chuleta-de-markdown/markdown.png" class="webfeedsFeaturedVisual" alt="" /><p>Guardo como oro en paño un archivo donde consulto cualquier duda que tengo cuando estoy escribiendo...<a
+			href="https://silly-goldberg-68d2eb.netlify.com/#/stories/chuleta-de-markdown"
+			target="_blank"
+			>Leer más</a></p>]]></description>
 	<guid>https://silly-goldberg-68d2eb.netlify.com/chuleta-de-markdown/markdown.png</guid>
 </item>
 <item>
-	<title>Manuales de VueJS</title>
-	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/manuales-vuejs-espanol</link>
-	<pubDate>Sun, 15 Mar 2020 10:33:26 -0400</pubDate>		
-		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/manuales-vuejs-espanol/vuejs.jpg" class="webfeedsFeaturedVisual" alt="" /><p>Manuales de Vue.js en español</p>]]></description>
-	<guid>https://silly-goldberg-68d2eb.netlify.com/manuales-vuejs-espanol/vuejs.jpg</guid>
+	<title>Buscar archivos en Linux por nombre o contenido</title>
+	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/buscar-en-ficheros</link>
+	<pubDate>Sun, 22 Mar 2020 10:33:26 -0400</pubDate>		
+		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/buscar-en-ficheros/search.png" class="webfeedsFeaturedVisual" alt="" /><p>Para buscar archivos en nuestro sistema vamos a usar el comando <i>find</i>. Por ejemplo para buscar un...<a
+			href="https://silly-goldberg-68d2eb.netlify.com/#/stories/buscar-en-ficheros"
+			target="_blank"
+			>Leer más</a></p>]]></description>
+	<guid>https://silly-goldberg-68d2eb.netlify.com/buscar-en-ficheros/search.png</guid>
 </item>
 
 </channel>

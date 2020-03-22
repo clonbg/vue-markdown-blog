@@ -46,7 +46,7 @@
                   </div>
                 </h3>
 
-                <div v-html="entry.description"></div>
+                <div v-html="entry.description" class="mx-auto"></div>
                 <!-- <button class="btn btn-success" @click="crearXml">Crear XML</button> -->
               </div>
             </div>
@@ -138,7 +138,7 @@ p {
 }
 
 .sections {
-  max-width: 50vw; //Anchura del articulo desde esta vista
+  max-width: 40vw; //Anchura del articulo desde esta vista
   margin: 0 auto;
   margin-top: 4rem;
 }

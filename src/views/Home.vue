@@ -1,6 +1,18 @@
 <template>
   <div class="home">
-    <h1 class="headline center letra mb-n1">El blog de Clonbg</h1>
+    <div class="container">
+      <div class="row row-cols headline center letra mb-n1">
+        <div class="col-10">
+          <h1>El blog de Clonbg</h1>
+        </div>
+        <div class="col-1">
+          <a :href="`${publicPath}feedClonbg_es.xml`" target="_blank">
+            <img class="rssCabecera align-bottom" src="@/icons/rss2.svg" />
+          </a>
+        </div>
+      </div>
+    </div>
+
     <img src="../assets/logo_clonbg_es.jpg" class="img-fluid logo" alt="Logo" />
     <div class="row">
       <div class="col mx-auto">
@@ -164,5 +176,8 @@ p {
 .logo {
   width: 30vh;
   margin-top: 3vh;
+}
+.rssCabecera {
+  max-width: 50px;
 }
 </style>

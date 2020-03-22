@@ -63,10 +63,14 @@ export default {
   methods: {
     crearXml: function() {
       console.log("se ejecuta la funcion");
-      const fs = require("fs");
-      const write = require("write");
-      sync(`${this.publicPath}feedClonbg_es.xml`, "some data...", {
-        increment: true
+      var fs = require("fs");
+      console.log(fs.readFile)
+      this.readFile(process.env.BASE_URL + "feedClonbg_es.xml", "utf8", function(err, data) {
+        if (err) {
+          return console.log(err);
+        }
+
+        console.log(data);
       });
     }
     // `${this.publicPath}feedClonbg_es.xml`

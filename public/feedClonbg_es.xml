@@ -1,1 +1,40 @@
-﻿<h1>El RSS estará pronto en funcionamiento</h1>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Clonbg</title> 
+<link>http://clonbg.es</link> 
+<description>Blog de tecnología de Clonbg</description> 
+ <atom:link href="https://silly-goldberg-68d2eb.netlify.com/feedClonbg_es.xml" rel="self" type="application/rss+xml"/>
+<language>es-ES</language>
+<image>
+<title>Blog de Clonbg</title> 
+<url>https://silly-goldberg-68d2eb.netlify.com/img/logo_clonbg_es.8a50aa92.jpg</url> 
+<link>http://clonbg.es</link> 
+<width>144</width> 
+<height>65</height> 
+</image>
+<item>
+	<title>Buscar archivos en Linux por nombre o contenido</title>
+	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/buscar-en-ficheros</link>
+	<pubDate>Sun, 22 Mar 2020 10:33:26 -0400</pubDate>		
+		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/buscar-en-ficheros/search.png" class="webfeedsFeaturedVisual" alt="" /><p>Buscar archivos por nombre o contenido a través de la terminal de linux</p>]]></description>
+	<guid>https://silly-goldberg-68d2eb.netlify.com/buscar-en-ficheros/search.png</guid>
+</item>
+<item>
+	<title>Mi chuleta de markdown</title>
+	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/chuleta-de-markdown</link>
+	<pubDate>Thu, 17 Mar 2020 10:33:26 -0400</pubDate>		
+		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/chuleta-de-markdown/markdown.png" class="webfeedsFeaturedVisual" alt="" /><p>Manual de Markdown para consulta</p>]]></description>
+	<guid>https://silly-goldberg-68d2eb.netlify.com/chuleta-de-markdown/markdown.png</guid>
+</item>
+<item>
+	<title>Manuales de VueJS</title>
+	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/manuales-vuejs-espanol</link>
+	<pubDate>Sun, 15 Mar 2020 10:33:26 -0400</pubDate>		
+		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/manuales-vuejs-espanol/vuejs.jpg" class="webfeedsFeaturedVisual" alt="" /><p>Manuales de Vue.js en español</p>]]></description>
+	<guid>https://silly-goldberg-68d2eb.netlify.com/manuales-vuejs-espanol/vuejs.jpg</guid>
+</item>
+
+</channel>
+</rss>
+

@@ -1,16 +1,15 @@
 <template>
   <div class="home">
     <div class="container">
-      <div class="row row-cols headline center letra mb-n1">
-        <div class="col-10">
-          <h1>El blog de Clonbg</h1>
-        </div>
-        <div class="col-1">
+      
+        <div class="row headline letra d-flex justify-content-center">
+          <h1 class="mr-5">El blog de Clonbg</h1>
+        
+       
           <a :href="`${publicPath}feedClonbg_es.xml`" target="_blank">
-            <img class="rssCabecera align-bottom" src="@/icons/rss2.svg" />
+            <img class="rssCabecera" src="@/icons/rss2.svg" />
           </a>
         </div>
-      </div>
     </div>
 
     <img src="../assets/logo_clonbg_es.jpg" class="img-fluid logo" alt="Logo" />
@@ -104,10 +103,12 @@ export default {
   text-align: center;
 }
 .headline {
+  text-align: center;
   text-transform: uppercase;
-  margin: 4rem auto;
+  margin: 0 auto;
   font-size: 3rem;
-}
+  margin-top: 4rem
+  }
 img {
   display: block;
   margin: 0 auto;

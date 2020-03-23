@@ -1,12 +1,14 @@
 {
   "stories": [
+    
+    
     {
-      "id": "manuales-vuejs-espanol",
-      "categorias": ["Javascript", "VueJS"],
-      "imagen": "/vuejs.jpg",
-      "date": "15 de Marzo de 2020",
-      "title": "Manuales de VueJS en español",
-      "description": "Tenía guardados un par de manuales de <strong>VueJS</strong> que en su momento me ayudaron mucho..."
+      "id": "buscar-en-ficheros",
+      "categorias": ["Linux", "Terminal"],
+      "imagen": "/search.png",
+      "date": "22 de Marzo de 2020",
+      "title": "Buscar archivos en Linux por nombre o contenido",
+      "description": "Para buscar archivos en nuestro sistema vamos a usar el comando <i>find</i>. Por ejemplo para buscar un..."
     },
     {
       "id": "chuleta-de-markdown",
@@ -17,12 +19,12 @@
       "description": "Guardo como oro en paño un archivo donde consulto cualquier duda que tengo cuando estoy escribiendo..."
     },
     {
-      "id": "buscar-en-ficheros",
-      "categorias": ["Linux", "Terminal"],
-      "imagen": "/search.png",
-      "date": "22 de Marzo de 2020",
-      "title": "Buscar archivos en Linux por nombre o contenido",
-      "description": "Para buscar archivos en nuestro sistema vamos a usar el comando <i>find</i>. Por ejemplo para buscar un..."
+      "id": "manuales-vuejs-espanol",
+      "categorias": ["Javascript", "VueJS"],
+      "imagen": "/vuejs.jpg",
+      "date": "15 de Marzo de 2020",
+      "title": "Manuales de VueJS en español",
+      "description": "Tenía guardados un par de manuales de <strong>VueJS</strong> que en su momento me ayudaron mucho..."
     }
   ]
 }

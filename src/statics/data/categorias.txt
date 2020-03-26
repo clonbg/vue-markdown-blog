@@ -4,3 +4,4 @@ VueJS
 Javascript
 Markdown
 Terminal
+Errores

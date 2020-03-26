@@ -1,7 +1,13 @@
 {
   "stories": [
-    
-    
+    {
+      "id": "mkinitcpio",
+      "categorias": ["Errores", "Linux"],
+      "imagen": "/mkinitcpio.jpg",
+      "date": "26 de Marzo de 2020",
+      "title": "Possibly missing firmware for module: aic94xx, wd719x",
+      "description": "Soy usuario de Gnu/Linux en todos mis equipos, en todos en los que es posible. En mi sobremesa cada vez que..."
+    },
     {
       "id": "buscar-en-ficheros",
       "categorias": ["Linux", "Terminal"],

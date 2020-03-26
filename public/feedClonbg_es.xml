@@ -14,7 +14,16 @@
 <height>65</height> 
 </image>
 
-
+<item>
+	<title>Possibly missing firmware for module: aic94xx, wd719x</title>
+	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/mkinitcpio</link>
+	<pubDate>Sun, 26 Mar 2020 10:33:26 -0400</pubDate>		
+		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/mkinitcpio/mkinitcpio.jpg" class="webfeedsFeaturedVisual" alt="" /><p>Soy usuario de Gnu/Linux en todos mis equipos, en todos en los que es posible. En mi sobremesa cada vez que...<a
+			href="https://silly-goldberg-68d2eb.netlify.com/#/stories/mkinitcpio"
+			target="_blank"
+			>Leer más</a></p>]]></description>
+	<guid>https://silly-goldberg-68d2eb.netlify.com/mkinitcpio/mkinitcpio.jpg</guid>
+</item>
 <item>
 	<title>Buscar archivos en Linux por nombre o contenido</title>
 	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/buscar-en-ficheros</link>

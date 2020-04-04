@@ -13,11 +13,20 @@
 <width>144</width> 
 <height>65</height> 
 </image>
-
+<item>
+	<title>Los comandos que necesito para trabajar con git desde la terminal</title>
+	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/comandos-git</link>
+	<pubDate>Sat, 4 Apr 2020 10:33:26 -0400</pubDate>		
+		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/comandos-git/comandos-git.jpg" class="webfeedsFeaturedVisual" alt="" /><p>No soy un gran especialista en *git*, de hecho con unos pocos comandos hago todo lo que necesito. Rara es...<a
+			href="https://silly-goldberg-68d2eb.netlify.com/#/stories/comandos-git"
+			target="_blank"
+			>Leer más</a></p>]]></description>
+	<guid>https://silly-goldberg-68d2eb.netlify.com/comandos-git/comandos-git.jpg</guid>
+</item>
 <item>
 	<title>Possibly missing firmware for module: aic94xx, wd719x</title>
 	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/mkinitcpio</link>
-	<pubDate>Sun, 26 Mar 2020 10:33:26 -0400</pubDate>		
+	<pubDate>Sun, 29 Mar 2020 10:33:26 -0400</pubDate>		
 		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/mkinitcpio/mkinitcpio.jpg" class="webfeedsFeaturedVisual" alt="" /><p>Soy usuario de Gnu/Linux en todos mis equipos, en todos en los que es posible. En mi sobremesa cada vez que...<a
 			href="https://silly-goldberg-68d2eb.netlify.com/#/stories/mkinitcpio"
 			target="_blank"

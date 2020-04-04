@@ -1,6 +1,14 @@
 {
   "stories": [
     {
+      "id": "comandos-git",
+      "categorias": ["Git", "Terminal"],
+      "imagen": "/comandos-git.jpg",
+      "date": "4 de Abril de 2020",
+      "title": "Los comandos que necesito para trabajar con git desde la terminal",
+      "description": "No soy un gran especialista en *git*, de hecho con unos pocos comandos hago todo lo que necesito. Rara es..."
+    },
+    {
       "id": "mkinitcpio",
       "categorias": ["Errores", "Linux"],
       "imagen": "/mkinitcpio.jpg",

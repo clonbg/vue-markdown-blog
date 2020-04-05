@@ -1,20 +1,19 @@
 <template>
   <div class="home">
     <div class="container">
-      
-        <div class="row headline letra d-flex justify-content-center">
-          <h1 class="mr-5">El blog de Clonbg</h1>
-        
-       
-          <a :href="`${publicPath}feedClonbg_es.xml`" target="_blank">
-            <img class="rssCabecera" src="@/icons/rss2.svg" />
-          </a>
-        </div>
+      <div class="row headline letra d-flex justify-content-center">
+        <h1 class="mr-5">El blog de Clonbg</h1>
+
+        <a :href="`${publicPath}feedClonbg_es.xml`" target="_blank">
+          <img class="rssCabecera" src="@/icons/rss2.svg" />
+        </a>
+      </div>
     </div>
 
     <img src="../assets/logo_clonbg_es.jpg" class="img-fluid logo" alt="Logo" />
+
     <div class="row">
-      <div class="col mx-auto">
+      <div class="mx-auto">
         <div class="sections">
           <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
             <!-- <h2 class="center">{{section}}</h2> -->
@@ -28,9 +27,10 @@
                       </div>
                       <div class="p-2 bd-highlight">
                         <div
+                          v-html="entry.title"
                           class="alert alert-light tamanoTitulo p-0 m-0 mt-2"
                           role="alert"
-                        >{{entry.title}}</div>
+                        ></div>
                       </div>
                       <div class="p-0 m-0 bd-highlight">
                         <span class="subtitle text-success">{{entry.date}}</span>
@@ -44,9 +44,9 @@
                     </div>
                   </div>
                 </h3>
-
-                <div v-html="entry.description" class="mx-auto"></div>
-                <!-- <button class="btn btn-success" @click="crearXml">Crear XML</button> -->
+                <div class="container-fluid">
+                  <div v-html="entry.description" class="mx-auto col-lg-8"></div>
+                </div>
               </div>
             </div>
           </div>
@@ -107,8 +107,8 @@ export default {
   text-transform: uppercase;
   margin: 0 auto;
   font-size: 3rem;
-  margin-top: 4rem
-  }
+  margin-top: 4rem;
+}
 img {
   display: block;
   margin: 0 auto;
@@ -139,7 +139,7 @@ p {
 }
 
 .sections {
-  max-width: 40vw; //Anchura del articulo desde esta vista
+  max-width: 80vw; //Anchura del articulo desde esta vista
   margin: 0 auto;
   margin-top: 4rem;
 }

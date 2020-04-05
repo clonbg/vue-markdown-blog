@@ -5,8 +5,8 @@
       "categorias": ["Git", "Terminal"],
       "imagen": "/comandos-git.jpg",
       "date": "4 de Abril de 2020",
-      "title": "Los comandos que necesito para trabajar con git desde la terminal",
-      "description": "No soy un gran especialista en *git*, de hecho con unos pocos comandos hago todo lo que necesito. Rara es..."
+      "title": "Los comandos que necesito para trabajar con <i>git</i> desde la terminal",
+      "description": "No soy un gran especialista en <i>git</i>, de hecho con unos pocos comandos hago todo lo que necesito. Rara es la vez que he necesitado hacer..."
     },
     {
       "id": "mkinitcpio",
@@ -14,7 +14,7 @@
       "imagen": "/mkinitcpio.jpg",
       "date": "26 de Marzo de 2020",
       "title": "Possibly missing firmware for module: aic94xx, wd719x",
-      "description": "Soy usuario de Gnu/Linux en todos mis equipos, en todos en los que es posible. En mi sobremesa cada vez que..."
+      "description": "Soy usuario de Gnu/Linux en todos mis equipos, en todos en los que es posible. En mi sobremesa cada vez que compilaba el kernel o ejecutaba..."
     },
     {
       "id": "buscar-en-ficheros",
@@ -22,7 +22,7 @@
       "imagen": "/search.png",
       "date": "22 de Marzo de 2020",
       "title": "Buscar archivos en Linux por nombre o contenido",
-      "description": "Para buscar archivos en nuestro sistema vamos a usar el comando <i>find</i>. Por ejemplo para buscar un..."
+      "description": "Para buscar archivos en nuestro sistema vamos a usar el comando <i>find</i>. Por ejemplo para buscar un archivo que contenga 'feet' en cualquier..."
     },
     {
       "id": "chuleta-de-markdown",
@@ -30,7 +30,7 @@
       "imagen": "/markdown.png",
       "date": "17 de Marzo de 2020",
       "title": "Mi chuleta de Markdown",
-      "description": "Guardo como oro en paño un archivo donde consulto cualquier duda que tengo cuando estoy escribiendo..."
+      "description": "Guardo como oro en paño un archivo donde consulto cualquier duda que tengo cuando estoy escribiendo en formato <b>markdown</b>. La voy a dejar aquí..."
     },
     {
       "id": "manuales-vuejs-espanol",
@@ -38,7 +38,7 @@
       "imagen": "/vuejs.jpg",
       "date": "15 de Marzo de 2020",
       "title": "Manuales de VueJS en español",
-      "description": "Tenía guardados un par de manuales de <strong>VueJS</strong> que en su momento me ayudaron mucho..."
+      "description": "Tenía guardados un par de manuales de <i>VueJS</i> que en su momento me ayudaron mucho, sobretodo a entender el funcionamiento principal..."
     }
   ]
 }

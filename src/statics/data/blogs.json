@@ -1,6 +1,14 @@
 {
   "stories": [
     {
+      "id": "git-password",
+      "categorias": ["Git", "Terminal", "Seguridad"],
+      "imagen": "/git-password.png",
+      "date": "11 de Abril de 2020",
+      "title": "Hacer que <i>git</i> no pida contraseña",
+      "description": "Se hace muy pesado, cada vez que hacemos un <i>push</i> tener que andar introduciendo las credenciales de <i>git</i>. Hay dos maneras de hacer..."
+    },
+    {
       "id": "comandos-git",
       "categorias": ["Git", "Terminal"],
       "imagen": "/comandos-git.jpg",

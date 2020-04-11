@@ -14,6 +14,16 @@
 <height>65</height> 
 </image>
 <item>
+	<title>Hacer que git no pida contraseña</title>
+	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/git-password</link>
+	<pubDate>Sat, 11 Apr 2020 10:33:26 -0400</pubDate>		
+		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/git-password/git-password.png" class="webfeedsFeaturedVisual" alt="" /><p>Se hace muy pesado, cada vez que hacemos un <i>push</i> tener que andar introduciendo las credenciales de <i>git</i>. Hay dos maneras de hacer...<a
+			href="https://silly-goldberg-68d2eb.netlify.com/#/stories/git-password"
+			target="_blank"
+			>Leer más</a></p>]]></description>
+	<guid>https://silly-goldberg-68d2eb.netlify.com/comandos-git/comandos-git.jpg</guid>
+</item>
+<item>
 	<title>Los comandos que necesito para trabajar con git desde la terminal</title>
 	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/comandos-git</link>
 	<pubDate>Sat, 4 Apr 2020 10:33:26 -0400</pubDate>		

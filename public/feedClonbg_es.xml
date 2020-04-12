@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>Clonbg</title> 
+<title>Blog de Clonbg</title> 
 <link>http://clonbg.es</link> 
 <description>Blog de tecnología de Clonbg</description> 
  <atom:link href="https://silly-goldberg-68d2eb.netlify.com/feedClonbg_es.xml" rel="self" type="application/rss+xml"/>
 <language>es-ES</language>
 <image>
-<title>Blog de Clonbg</title> 
 <url>https://silly-goldberg-68d2eb.netlify.com/img/logo_clonbg_es.8a50aa92.jpg</url> 
 <link>http://clonbg.es</link> 
 <width>144</width> 
@@ -56,7 +55,7 @@
 <item>
 	<title>Mi chuleta de markdown</title>
 	<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/chuleta-de-markdown</link>
-	<pubDate>Thu, 17 Mar 2020 10:33:26 -0400</pubDate>		
+	<pubDate>Fri, 17 Mar 2020 10:33:26 -0400</pubDate>		
 		<description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/chuleta-de-markdown/markdown.png" class="webfeedsFeaturedVisual" alt="" /><p>Guardo como oro en paño un archivo donde consulto cualquier duda que tengo cuando estoy escribiendo en formato <b>markdown</b>. La voy a dejar aquí...<a
 			href="https://silly-goldberg-68d2eb.netlify.com/#/stories/chuleta-de-markdown"
 			target="_blank"

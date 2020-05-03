@@ -1,5 +1,5 @@
 # Conectarnos desde fuera de la red con free-dns
-#### 19/04/2020
+#### 03/05/2020
 
 *Free-dns* es un servicio gratuito con el que nos podremos conectar a nuestro ordenador desde fuera de la red. Lo uso para conectarme a una *Rasperry Pi 4* que tengo en casa y le he instalado bastantes servicios.
 

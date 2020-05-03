@@ -1,6 +1,14 @@
 {
   "stories": [
     {
+        "id": "free-dns",
+        "categorias": ["Redes", "Linux"],
+        "imagen": "/free-dns.jpg",
+        "date": "03 de Mayo de 2020",
+        "title": "Conectarnos desde fuera de la red con <strong>free-dns</strong>",
+        "description": "<strong>free-dns</strong> es un servicio gratuito con el que nos podremos conectar a nuestro ordenador desde fuera de la red. Lo uso para conectarme a una..."
+    },
+    {
       "id": "git-password",
       "categorias": ["Git", "Terminal", "Seguridad"],
       "imagen": "/git-password.png",

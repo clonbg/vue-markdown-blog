@@ -53,6 +53,8 @@ Si todo ha ido bien se nos tiene que abrir el programa. Ahora vamos a hacer que 
 	dlg.show()
 	app.exec()
 
+Y cuando clickamos en el botón:
+
 ![textoCambiado](https://silly-goldberg-68d2eb.netlify.com/primeros-pasos-python-qt/texto.png	"Texto cambiado")
 
 Salu2

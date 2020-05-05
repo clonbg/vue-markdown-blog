@@ -7,3 +7,5 @@ Terminal
 Errores
 Seguridad
 Redes
+Programación
+Python

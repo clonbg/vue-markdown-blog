@@ -3,6 +3,7 @@
     <div class="container">
       <div class="row headline letra d-flex justify-content-center">
         <h1 class="mr-5">El blog de Clonbg</h1>
+<!-- https://vuematerial.io/components/app -->
 
         <a :href="`${publicPath}feedClonbg_es.xml`" target="_blank">
           <img class="rssCabecera" src="@/icons/rss2.svg" />
@@ -107,7 +108,7 @@ export default {
   text-transform: uppercase;
   margin: 0 auto;
   font-size: 3rem;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 img {
   display: block;
@@ -176,7 +177,7 @@ p {
 }
 .logo {
   width: 30vh;
-  margin-top: 3vh;
+  margin-top: 1vh;
 }
 .rssCabecera {
   max-width: 50px;

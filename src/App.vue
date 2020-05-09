@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div>
+      <Menu/>
       <router-view v-if="!$route.meta.keepAlive"></router-view>
       <keep-alive>
         <router-view v-if="$route.meta.keepAlive"></router-view>
@@ -13,10 +14,12 @@
 
 <script>
 import Footer from "@/views/Footer.vue";
+import Menu from "@/views/Menu.vue";
 export default {
   name: "app",
   components: {
-    Footer
+    Footer,
+    Menu
   }
 };
 </script>

@@ -44,8 +44,8 @@
                     </div>
                   </div>
                 </h3>
-                <div class="container-fluid">
-                  <div v-html="entry.description" class="mx-auto col-lg-8"></div>
+                <div class="container-fluid margen-descripcion">
+                  <div v-html="entry.description" class="mx-auto col-lg-7 text-justify"></div>
                 </div>
               </div>
             </div>
@@ -139,7 +139,7 @@ p {
 }
 
 .sections {
-  max-width: 80vw; //Anchura del articulo desde esta vista
+  max-width: 80vW; //Anchura del articulo desde esta vista
   margin: 0 auto;
   margin-top: 4rem;
 }
@@ -180,5 +180,8 @@ p {
 }
 .rssCabecera {
   max-width: 50px;
+}
+.margen-descripcion{
+  padding-left:0
 }
 </style>

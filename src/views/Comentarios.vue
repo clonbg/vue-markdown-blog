@@ -15,7 +15,7 @@
       var disqus_config = function() {
         console.log(this.$route.name)
         this.page.url = 'https://silly-goldberg-68d2eb.netlify.app/#/stories/' + this.$route.name // Url de tu sitio web
-        this.page.identifier = this.$route.name // Url de tu sitio web
+        this.page.identifier = 'https://silly-goldberg-68d2eb.netlify.app/#/stories/' + this.$route.name // Url de tu sitio web
       }
       ;(function() {
         var d = document,

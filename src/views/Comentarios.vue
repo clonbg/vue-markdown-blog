@@ -12,6 +12,10 @@
   export default {
     name: 'Comentarios',
     created() {
+      var disqus_config = function() {
+        this.page.url = window.location.href // Url de tu sitio web
+        this.page.identifier = window.location.href // Url de tu sitio web
+      }
       ;(function() {
         var d = document,
           s = d.createElement('script')

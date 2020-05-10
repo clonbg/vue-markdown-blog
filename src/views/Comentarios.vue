@@ -13,8 +13,9 @@
     name: 'Comentarios',
     created() {
       var disqus_config = function() {
-        this.page.url = 'https://silly-goldberg-68d2eb.netlify.app/#/' // Url de tu sitio web
-        this.page.identifier = 'https://silly-goldberg-68d2eb.netlify.app/#/' // Url de tu sitio web
+        console.log(this.$route.name)
+        this.page.url = 'https://silly-goldberg-68d2eb.netlify.app/#/stories/' + this.$route.name // Url de tu sitio web
+        this.page.identifier = this.$route.name // Url de tu sitio web
       }
       ;(function() {
         var d = document,

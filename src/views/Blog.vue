@@ -29,6 +29,7 @@ export default {
     }
   },
   mounted() {
+    console.log(this.$route.name)
     var links = document.links;
     //Código que sirve par añadir target="_blank a los enlaces"
     for (var i = 0; i < links.length; i++) {

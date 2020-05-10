@@ -13,8 +13,8 @@
     name: 'Comentarios',
     created() {
       var disqus_config = function() {
-        this.page.url = window.location.href // Url de tu sitio web
-        this.page.identifier = window.location.href // Url de tu sitio web
+        this.page.url = 'https://silly-goldberg-68d2eb.netlify.app/#/' // Url de tu sitio web
+        this.page.identifier = 'https://silly-goldberg-68d2eb.netlify.app/#/' // Url de tu sitio web
       }
       ;(function() {
         var d = document,

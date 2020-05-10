@@ -1,29 +1,33 @@
 <template>
   <div class="blog">
     <router-view />
-    <Comentarios />
+    <div class="comments">
+    <vue-disqus shortname="https-silly-goldberg-68d2eb-netlify-app" :identifier="idPost" url="https://silly-goldberg-68d2eb.netlify.app/#/"></vue-disqus>
+  </div>
+  {{idPost}}
     <router-link to="/" tag="a" class="back">&laquo; Atrás</router-link>
   </div>
 </template>
 
 <script>
-import Comentarios from "@/views/Comentarios.vue";
 /* eslint-disable */
 import BLOGENTRIES from "@/statics/data/blogs.json";
 
 export default {
   name: "home",
   components: {
-    Comentarios
   },
   data() {
     return {
-      publicPath: process.env.BASE_URL
+      publicPath: process.env.BASE_URL,
     };
   },
 
   methods: {},
   computed: {
+    idPost() {
+      return this.$route.name
+    },
     entries() {
       return BLOGENTRIES;
     }

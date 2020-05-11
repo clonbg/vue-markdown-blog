@@ -5,9 +5,6 @@
         <h1 class="mr-5">El blog de Clonbg</h1>
 <!-- https://vuematerial.io/components/app -->
 
-        <a :href="`${publicPath}feedClonbg_es.xml`" target="_blank">
-          <img class="rssCabecera" src="@/icons/rss2.svg" />
-        </a>
       </div>
     </div>
 
@@ -178,9 +175,6 @@ p {
 .logo {
   width: 30vh;
   margin-top: 1vh;
-}
-.rssCabecera {
-  max-width: 50px;
 }
 .margen-descripcion{
   padding-left:0

@@ -1,10 +1,6 @@
 <template>
   <div class="blog">
     <router-view />
-    <div class="comments">
-    <vue-disqus shortname="https-silly-goldberg-68d2eb-netlify-app" :identifier="idPost" url="https://silly-goldberg-68d2eb.netlify.app/#/"></vue-disqus>
-  </div>
-  {{idPost}}
     <router-link to="/" tag="a" class="back">&laquo; Atrás</router-link>
   </div>
 </template>
@@ -33,6 +29,8 @@ export default {
     }
   },
   mounted() {
+    console.log(this.entries)
+    console.log(this.idPost)
     var links = document.links;
     //Código que sirve par añadir target="_blank a los enlaces"
     for (var i = 0; i < links.length; i++) {

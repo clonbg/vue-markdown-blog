@@ -21,16 +21,11 @@ export default {
 
   methods: {},
   computed: {
-    idPost() {
-      return this.$route.name
-    },
     entries() {
       return BLOGENTRIES;
     }
   },
   mounted() {
-    console.log(this.entries)
-    console.log(this.idPost)
     var links = document.links;
     //Código que sirve par añadir target="_blank a los enlaces"
     for (var i = 0; i < links.length; i++) {

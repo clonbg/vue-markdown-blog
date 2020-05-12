@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div>
-      <Menu/>
+      <Menu style="display:flex;"/>
       <router-view v-if="!$route.meta.keepAlive"></router-view>
       <keep-alive>
         <router-view v-if="$route.meta.keepAlive"></router-view>

@@ -10,7 +10,7 @@
 
     <md-menu md-direction="bottom-end" class="posicionTitulo">
       <md-button md-menu-trigger>
-        <h1>El blog de Clonbg</h1>
+        <h1 @click="$router.push({name: 'home'})">El blog de Clonbg</h1>
       </md-button>
     </md-menu>
     <div class="espaciador">

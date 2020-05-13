@@ -8,7 +8,7 @@
       </md-button>
     </md-menu>
 
-    <md-menu md-direction="bottom-end" class="posicionTitulo">
+    <md-menu md-direction="bottom-end">
       <md-button md-menu-trigger>
         <h1 @click="$router.push({name: 'home'})">El blog de Clonbg</h1>
       </md-button>
@@ -71,6 +71,7 @@
   }
   h1 {
     font-size: 2vh;
+    margin-left: -2vW;
   }
   .espaciador {
     width: 100%;

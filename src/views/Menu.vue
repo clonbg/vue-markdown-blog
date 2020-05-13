@@ -63,6 +63,7 @@
   }
   .posicionLogo {
     float: left;
+    margin-right: -25px;
   }
   .posicionAcerca {
     float: right;
@@ -71,7 +72,6 @@
   }
   h1 {
     font-size: 2vh;
-    margin-left: -2vW;
   }
   .espaciador {
     width: 100%;

@@ -8,7 +8,6 @@ Creé un archivo en el fondo de mi sistema con el nombre *archivoprueba* y hice 
 **Primero en la terminal de Xfce4:**
 
 ![Tiempo en la terminal de Xfce4](https://silly-goldberg-68d2eb.netlify.app/alacritty-la-terminal-mas-rapida/timeTerminal.png   "Tiempo en la terminal de Xfce4")
-
 Tarda 41 segundos
 
 **Con Alacritty:**

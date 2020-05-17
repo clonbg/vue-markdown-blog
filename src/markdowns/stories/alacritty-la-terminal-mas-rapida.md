@@ -16,6 +16,14 @@ Tarda 41 segundos
 ![Tiempo en Alacritty](https://silly-goldberg-68d2eb.netlify.app/alacritty-la-terminal-mas-rapida/timeAlacritty.png   "Tiempo en Alacritty")
 Tarda 16 segundos!!
 
-Estamos hablando, en este caso de casi el triple de rápido que una terminal convencional. Me veo obligado a cambiarme a **Alacritty** como mi emulador de terminal por defecto. Ahora solo falta que me vaya familiarizando con *tmux* para tener varios terminales a la vez, pero eso ya os lo cuento otro día.
+Estamos hablando, en este caso de casi el triple de rápido que una terminal convencional. Me veo obligado a cambiarme a **Alacritty** como mi emulador de terminal.
+
+El archivo de configuración se encuentra en:
+
+    ~/.config/alacritty/alacritty.yml
+
+[Aquí](https://github.com/clonbg/configs/blob/master/alacritty.yml) os dejo mi archivo de configuración, además he instalado la fuente *nerd-font-hack* que es la que viene por defecto.
+
+Ahora solo falta que me vaya familiarizando con *tmux* para tener varios terminales a la vez, pero eso ya os lo cuento otro día.
 
 Salu2

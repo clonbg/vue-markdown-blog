@@ -1,6 +1,14 @@
 {
   "stories": [
     {
+      "id": "alacritty-la-terminal-mas-rapida",
+      "categorias": ["Linux", "terminal", "Aplicaciones"],
+      "imagen": "/alacritty.png",
+      "date": "17 de Mayo de 2020",
+      "title": "<strong>Alacritty</strong>, el terminal más rápido",
+      "description": "<strong>Alacritty</strong> es un simple emulador de terminal, no es más. Eso si, es súper rápido. Lo había escuchado en el podcast de <a href='https://www.atareao.es/software/utilidades/emulador-de-terminal-mas-rapido/'>atareao.es</a> y decidí hacer la..."
+    },
+    {
       "id": "primeros-pasos-python-qt",
       "categorias": ["Linux", "Programación", "Python"],
       "imagen": "/qtdesigner.png",

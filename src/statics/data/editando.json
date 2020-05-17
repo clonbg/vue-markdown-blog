@@ -1,19 +1,19 @@
 {
-  "id": "primeros-pasos-python-qt",
-  "categorias": ["Linux", "Programación", "Python"],
-  "imagen": "/qtdesigner.png",
-  "date": "05 de Mayo de 2020",
-  "title": "Primeros pasos con <i>PyQt</i> y <i>QtDesigner</i>. Primer programa con <i>Python</i>",
+  "id": "alacritty-la-terminal-mas-rapida",
+  "categorias": ["Linux", "terminal", "Aplicaciones"],
+  "imagen": "/alacritty.png",
+  "date": "17 de Mayo de 2020",
+  "title": "<strong>Alacritty</strong>, el terminal más rápido",
   "description": "Vamos a crear nuestro primer programa gráfico con Python y PyQt, es mucho más sencillo de lo que parece. Lo primero que tenemos que hacer es instalar las librerías. Si estás en *Arch/Linux* como estoy yo..."
 },
 
 <item>
-<title>Primeros pasos con PyQt y QtDesigner. Primer programa con Python</title>
-<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/primeros-pasos-python-qt</link>
+<title>Alacritty, el terminal más rápido</title>
+<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/alacritty-la-terminal-mas-rapida</link>
 <pubDate>Tue, 05 May 2020 10:33:26 -0400</pubDate>
-  <description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/primeros-pasos-python-qt/qtdesigner.png" class="webfeedsFeaturedVisual" alt="" /><p>Vamos a crear nuestro primer programa gráfico con <i>Python</i> y <i>PyQt</i>, es mucho más sencillo de lo que parece. Lo primero que tenemos que hacer es...<br><a
-    href="https://silly-goldberg-68d2eb.netlify.com/#/stories/primeros-pasos-python-qt"
+  <description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/alacritty-la-terminal-mas-rapida/alacritty.png" class="webfeedsFeaturedVisual" alt="" /><p>Vamos a crear nuestro primer programa gráfico con <i>Python</i> y <i>PyQt</i>, es mucho más sencillo de lo que parece. Lo primero que tenemos que hacer es...<br><a
+    href="https://silly-goldberg-68d2eb.netlify.com/#/stories/alacritty-la-terminal-mas-rapida"
     target="_blank"
     >Leer más</a></p>]]></description>
-<guid>https://silly-goldberg-68d2eb.netlify.com/primeros-pasos-python-qt/qtdesigner.png</guid>
+<guid>https://silly-goldberg-68d2eb.netlify.com/alacritty-la-terminal-mas-rapida/alacritty.png</guid>
 </item>

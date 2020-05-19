@@ -13,7 +13,7 @@
         <div class="sections">
           <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
             <!-- <h2 class="center">{{section}}</h2> -->
-            <div class="section" v-for="entry in entries[section]" :key="entry.id">
+            <div v-if="num<contador && num>=contador-10" class="section" v-for="(entry, num) in entries[section]" :key="entry.id">
               <div class="entry">
                 <h3 class="text-decoration-none" @click="$router.push({name: entry.id})">
                   <div class="d-flex justify-content-center">
@@ -29,9 +29,9 @@
                       <div class="p-0 m-0 bd-highlight">
                         <span class="subtitle text-success">{{entry.date}}</span>
                         <span class="categorias" v-for="item in entry.categorias" :key="item.id">
-                              <div class="inline">
-                                <i class="fa fa-star fa-lg fa-spin"></i>
-                                <span class="pl-2">{{item}}</span>
+                                <div class="inline">
+                                  <i class="fa fa-star fa-lg fa-spin"></i>
+                                  <span class="pl-2">{{item}}</span>
                       </div>
                       </span>
                     </div>
@@ -46,6 +46,16 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="row">
+    <div class="mx-auto botones">
+      <h3><<</h3>
+      <h3 @click="contador=contador-10"><</h3>
+      <h3>{{contador/10}}</h3>
+      <h3 @click="contador=contador+10">></h3>
+      <h3>>></h3>
+    </div>
+
   </div>
   </div>
 
@@ -63,7 +73,8 @@
     },
     data() {
       return {
-        publicPath: process.env.BASE_URL
+        publicPath: process.env.BASE_URL,
+        contador: 10
       }
     },
 
@@ -101,6 +112,8 @@
   }
 
   h3 {
+    padding-left: 1vH;
+    padding-right: 1vH;
     color: #42b883;
     margin-bottom: 0;
     cursor: pointer;
@@ -155,6 +168,10 @@
   }
   .margen-descripcion {
     padding-left: 0;
+  }
+  .botones {
+    padding-bottom: 10vH;
+    display: inline-flex;
   }
 
 </style>

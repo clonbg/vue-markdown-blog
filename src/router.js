@@ -38,10 +38,13 @@ const blogRoutes = Object.keys(BlogEntries).map(section => {
 
 export default new Router({
   base: process.env.BASE_URL,
+  scrollBehavior() {
+    return { x: 0, y: 0 }
+  },
   routes: [
     {
       path: '/',
-      name: 'home', 
+      name: 'home',
       component: Home
     },
 

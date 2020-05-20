@@ -13,8 +13,8 @@
         <div class="sections">
           <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
             <!-- <h2 class="center">{{section}}</h2> -->
-            <div v-if="num<contador && num>=contador-10" class="section" v-for="(entry, num) in entries[section]" :key="entry.id">
-              <div class="entry">
+            <div class="section" v-for="(entry, num) in entries[section]" :key="entry.id">
+              <div v-if="num<contador && num>=contador-10" class="entry">
                 <h3 class="text-decoration-none" @click="$router.push({name: entry.id})">
                   <div class="d-flex justify-content-center">
                     <div class="d-flex flex-column bd-highlight mb-3">
@@ -29,9 +29,9 @@
                       <div class="p-0 m-0 bd-highlight">
                         <span class="subtitle text-success">{{entry.date}}</span>
                         <span class="categorias" v-for="item in entry.categorias" :key="item.id">
-                                <div class="inline">
-                                  <i class="fa fa-star fa-lg fa-spin"></i>
-                                  <span class="pl-2">{{item}}</span>
+                                    <div class="inline">
+                                      <i class="fa fa-star fa-lg fa-spin"></i>
+                                      <span class="pl-2">{{item}}</span>
                       </div>
                       </span>
                     </div>
@@ -49,12 +49,13 @@
   </div>
   <div class="row">
     <div class="mx-auto botones">
-      <h3><<</h3>
-      <h3 @click="contador=contador-10"><</h3>
-      <h3>{{contador/10}}</h3>
-      <h3 @click="contador=contador+10">></h3>
-      <h3>>></h3>
+      <label class="botonera" @click="avanceFinal" :class="{colorGris: false}">&lt;&lt;</label>
+      <label class="botonera" @click="avanceUno" :class="{colorGris: false}">&lt;</label>
+      <label class="botonera">{{contador}}</label>
+      <label class="botonera" @click="atrasUno" :class="{colorGris: false}">&gt;</label>
+      <label class="botonera" :class="{colorGris: false}">&gt;&gt;</label>
     </div>
+    {{contador}}
 
   </div>
   </div>
@@ -74,14 +75,48 @@
     data() {
       return {
         publicPath: process.env.BASE_URL,
-        contador: 10
+        contador: 10,
+        atras: false,
+        adelante: false
       }
     },
+    methods: {
+      atrasUno() {
+        if(this.contador>10){
+        this.contador = this.contador - 10
+        }        //window.scrollTo(0, 0)
+      },
+      avanceUno() {
+        if (this.contador<=BLOGENTRIES.stories.length) {
+          this.contador = this.contador + 10
+        }
 
-    methods: {},
+        //window.scrollTo(0, 0)
+      },
+      avanceFinal(){
+        this.contador = parseInt(BLOGENTRIES.stories.length/10)*10
+        console.log(this.contador)
+      }
+    },
     computed: {
       entries() {
         return BLOGENTRIES
+      },
+      computedAtras(){
+        if(this.contador==10){
+          this.atras=true
+        } else {
+          this.atras=false
+        }
+        return this.atras
+      },
+      computedAdelante(){
+        if(this.contador>=BLOGENTRIES.stories.length){
+          this.adelante=true
+        } else {
+          this.adelante=false
+        }
+        return this.adelante
       }
     }
   }
@@ -112,8 +147,8 @@
   }
 
   h3 {
-    padding-left: 1vH;
-    padding-right: 1vH;
+    padding-left: 1vh;
+    padding-right: 1vh;
     color: #42b883;
     margin-bottom: 0;
     cursor: pointer;
@@ -123,6 +158,28 @@
     .subtitle {
       color: grey;
       font-size: 0.98rem;
+    }
+  }
+  .botonera {
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: #42b883;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 3vH;
+    &:hover {
+      text-decoration: underline;
+    }
+    .subtitle {
+      color: grey;
+      font-size: 0.98rem;
+    }
+  }
+  .colorGris{
+    color: grey;
+    cursor: auto;
+    &:hover {
+      text-decoration: none;
     }
   }
 
@@ -170,7 +227,7 @@
     padding-left: 0;
   }
   .botones {
-    padding-bottom: 10vH;
+    padding-bottom: 10vh;
     display: inline-flex;
   }
 

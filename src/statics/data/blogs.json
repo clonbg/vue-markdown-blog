@@ -33,38 +33,6 @@
       "description": "Se hace muy pesado, cada vez que hacemos un <i>push</i> tener que andar introduciendo las credenciales de <i>git</i>. Hay dos maneras de hacer..."
     },
     {
-      "id": "alacritty-la-terminal-mas-rapida",
-      "categorias": ["Linux", "terminal", "Aplicaciones"],
-      "imagen": "/alacritty.png",
-      "date": "17 de Mayo de 2020",
-      "title": "<strong>Alacritty</strong>, el terminal más rápido",
-      "description": "<strong>Alacritty</strong> es un simple emulador de terminal, no es más. Eso si, es súper rápido. Lo había escuchado en el podcast de <a href='https://www.atareao.es/software/utilidades/emulador-de-terminal-mas-rapido/'>atareao.es</a> y decidí hacer la..."
-    },
-    {
-      "id": "primeros-pasos-python-qt",
-      "categorias": ["Linux", "Programación", "Python"],
-      "imagen": "/qtdesigner.png",
-      "date": "05 de Mayo de 2020",
-      "title": "Primeros pasos con <i>PyQt</i> y <i>QtDesigner</i>. Primer programa con <i>Python</i>",
-      "description": "Vamos a crear nuestro primer programa gráfico con Python y PyQt, es mucho más sencillo de lo que parece. Lo primero que tenemos que hacer es..."
-    },
-    {
-        "id": "free-dns",
-        "categorias": ["Redes","Linux"],
-        "imagen": "/free-dns.jpg",
-        "date": "03 de Mayo de 2020",
-        "title": "Conectarnos desde fuera de la red con <strong>free-dns</strong>",
-        "description": "<strong>free-dns</strong> es un servicio gratuito con el que nos podremos conectar a nuestro ordenador desde fuera de la red. Lo uso para conectarme a una..."
-    },
-    {
-      "id": "git-password",
-      "categorias": ["Git", "Terminal", "Seguridad"],
-      "imagen": "/git-password.png",
-      "date": "11 de Abril de 2020",
-      "title": "Hacer que <i>git</i> no pida contraseña",
-      "description": "Se hace muy pesado, cada vez que hacemos un <i>push</i> tener que andar introduciendo las credenciales de <i>git</i>. Hay dos maneras de hacer..."
-    },
-    {
       "id": "comandos-git",
       "categorias": ["Git", "Terminal"],
       "imagen": "/comandos-git.jpg",

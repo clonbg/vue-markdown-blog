@@ -49,11 +49,11 @@
   </div>
   <div class="row">
     <div class="mx-auto botones">
-      <label class="botonera" @click="avanceFinal" :class="{colorGris: false}">&lt;&lt;</label>
-      <label class="botonera" @click="avanceUno" :class="{colorGris: false}">&lt;</label>
-      <label class="botonera">{{contador}}</label>
-      <label class="botonera" @click="atrasUno" :class="{colorGris: false}">&gt;</label>
-      <label class="botonera" :class="{colorGris: false}">&gt;&gt;</label>
+      <label class="botonera" @click="avanceFinal" :class="{colorGris: computedAdelante}">&lt;&lt;</label>
+      <label class="botonera" @click="avanceUno" :class="{colorGris: computedAdelante}">&lt;</label>
+      <label class="numPag">{{contador/10}}</label>
+      <label class="botonera" @click="atrasUno" :class="{colorGris: computedAtras}">&gt;</label>
+      <label class="botonera" @click="avanceInicio" :class="{colorGris: computedAtras}">&gt;&gt;</label>
     </div>
     {{contador}}
 
@@ -84,26 +84,28 @@
       atrasUno() {
         if(this.contador>10){
         this.contador = this.contador - 10
-        }        //window.scrollTo(0, 0)
+        }
       },
       avanceUno() {
         if (this.contador<=BLOGENTRIES.stories.length) {
-          this.contador = this.contador + 10
+          this.contador = this.contador + 10;
         }
-
-        //window.scrollTo(0, 0)
       },
       avanceFinal(){
-        this.contador = parseInt(BLOGENTRIES.stories.length/10)*10
-        console.log(this.contador)
+        this.contador = (parseInt(BLOGENTRIES.stories.length/10)+1)*10
+        //console.log(this.contador)
+      },
+      avanceInicio(){
+        this.contador = 10
+        //console.log(this.contador)
       }
     },
     computed: {
       entries() {
-        return BLOGENTRIES
+        return BLOGENTRIES;
       },
       computedAtras(){
-        if(this.contador==10){
+        if(this.contador<11){
           this.atras=true
         } else {
           this.atras=false
@@ -170,13 +172,20 @@
     &:hover {
       text-decoration: underline;
     }
-    .subtitle {
-      color: grey;
-      font-size: 0.98rem;
+  }
+  .numPag {
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: #42b883;
+    margin-bottom: 0;
+    cursor: auto;
+    font-size: 3vH;
+    &:hover {
+      text-decoration: none;
     }
   }
   .colorGris{
-    color: grey;
+    color:    #b9b3b1;
     cursor: auto;
     &:hover {
       text-decoration: none;

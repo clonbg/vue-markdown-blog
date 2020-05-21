@@ -2,16 +2,16 @@
   "id": "tmux-sacale-mas-partido",
   "categorias": ["Linux", "terminal", "Aplicaciones"],
   "imagen": "/tmux.png",
-  "date": "17 de Mayo de 2020",
+  "date": "21 de Mayo de 2020",
   "title": "<strong>Tmux</strong>, sácale más partido a tu terminal",
-  "description": "Vamos a crear nuestro primer programa gráfico con Python y PyQt, es mucho más sencillo de lo que parece. Lo primero que tenemos que hacer es instalar las librerías. Si estás en *Arch/Linux* como estoy yo..."
+  "description": "Os dije en el post dedicado a <i>Alacritty</i> que os iba a hablar de <strong>Tmux</strong>, pues lo prometido es deuda, vamos allá: <strong>Tmux</strong> según pone en su descripción es un multiplexor de terminal..."
 },
 
 <item>
 <title>Tmux, sácale más partido a tu terminal</title>
 <link>https://silly-goldberg-68d2eb.netlify.com/#/stories/tmux-sacale-mas-partido</link>
-<pubDate>Sun, 17 May 2020 10:33:26 -0400</pubDate>
-  <description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/tmux-sacale-mas-partido/tmux.png" class="webfeedsFeaturedVisual" alt="" /><p><strong>Alacritty</strong> es un simple emulador de terminal, no es más. Eso si, es súper rápido. Lo había escuchado en el podcast de <a href='https://www.atareao.es/software/utilidades/emulador-de-terminal-mas-rapido/'>atareao.es</a> y decidí hacer la...<br><a
+<pubDate>Thu, 21 May 2020 10:33:26 -0400</pubDate>
+  <description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/tmux-sacale-mas-partido/tmux.png" class="webfeedsFeaturedVisual" alt="" /><p>Os dije en el post dedicado a <i>Alacritty</i> que os iba a hablar de <strong>Tmux</strong>, pues lo prometido es deuda, vamos allá: <strong>Tmux</strong> según pone en su descripción...<br><a
     href="https://silly-goldberg-68d2eb.netlify.com/#/stories/tmux-sacale-mas-partido"
     target="_blank"
     >Leer más</a></p>]]></description>

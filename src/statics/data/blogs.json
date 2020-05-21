@@ -1,6 +1,14 @@
 {
   "stories": [
     {
+      "id": "tmux-sacale-mas-partido",
+      "categorias": ["Linux", "terminal", "Aplicaciones"],
+      "imagen": "/tmux.png",
+      "date": "21 de Mayo de 2020",
+      "title": "<strong>Tmux</strong>, sácale más partido a tu terminal",
+      "description": "Os dije en el post dedicado a <i>Alacritty</i> que os iba a hablar de <strong>Tmux</strong>, pues lo prometido es deuda, vamos allá: <strong>Tmux</strong> según pone en su descripción..."
+    },
+    {
       "id": "alacritty-la-terminal-mas-rapida",
       "categorias": ["Linux", "terminal", "Aplicaciones"],
       "imagen": "/alacritty.png",

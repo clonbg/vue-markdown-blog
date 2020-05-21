@@ -1,5 +1,5 @@
 # **Tmux**, sácale más partido a la terminal
-####
+#### 21/05/2020
 
 Os dije en el post dedicado a *Alacritty* que os iba a hablar de **Tmux**, pues lo prometido es deuda, vamos allá:
 

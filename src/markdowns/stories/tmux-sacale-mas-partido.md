@@ -5,7 +5,7 @@ Os dije en el post dedicado a *Alacritty* que os iba a hablar de **Tmux**, pues 
 
 **Tmux** según pone en su descripción es un multiplexor de terminal. Esto significa que puedes tener cuantas terminales quieras dentro de una.
 
-He estado trasteando un poco con él, siguiendo los atajos de teclado que indican en esta página, [tmuxcheatsheet.com](tmuxcheatsheet.com)
+He estado trasteando un poco con él, siguiendo los atajos de teclado que indican en esta página, [tmuxcheatsheet.com](http://tmuxcheatsheet.com)
 
 Puedes hacer prácticamente de todo, abrir sesiones y dejarlas funcionando en segundo plano después de cerrar la terminal es una de las más interesantes. Os recomiendo que echéis un ojo e intenteis dominarlo.
 

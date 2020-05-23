@@ -7,12 +7,12 @@ Creé un archivo en el fondo de mi sistema con el nombre *archivoprueba* y hice 
 
 **Primero en la terminal de Xfce4:**
 
-![Tiempo en la terminal de Xfce4](https://silly-goldberg-68d2eb.netlify.app/alacritty-la-terminal-mas-rapida/timeTerminal.png   "Tiempo en la terminal de Xfce4")
+![Tiempo en la terminal de Xfce4](https://clonbg.netlify.app/alacritty-la-terminal-mas-rapida/timeTerminal.png   "Tiempo en la terminal de Xfce4")
 Tarda 41 segundos
 
 **Con Alacritty:**
 
-![Tiempo en Alacritty](https://silly-goldberg-68d2eb.netlify.app/alacritty-la-terminal-mas-rapida/timeAlacritty.png   "Tiempo en Alacritty")
+![Tiempo en Alacritty](https://clonbg.netlify.app/alacritty-la-terminal-mas-rapida/timeAlacritty.png   "Tiempo en Alacritty")
 Tarda 16 segundos!!
 
 Estamos hablando, en este caso de casi el triple de rápido que una terminal convencional. Me veo obligado a cambiarme a **Alacritty** como mi emulador de terminal.

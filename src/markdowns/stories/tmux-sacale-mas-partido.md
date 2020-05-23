@@ -16,10 +16,10 @@ Yo soy más vago, me he creado dos alias en mi archivo *.zshrc*, uno para dividi
 
 De esta manera al escribir *tmuxAll* puedes trabajar con 3 terminales a la vez:
 
-![tmuxAll](https://silly-goldberg-68d2eb.netlify.com/tmux-sacale-mas-partido/tmux.png   "TmuxAll")
+![tmuxAll](https://clonbg.netlify.app/tmux-sacale-mas-partido/tmux.png   "TmuxAll")
 
 y al escribir *tmuxClose* cierra todas las terminales:
 
-![tmuxClose](https://silly-goldberg-68d2eb.netlify.com/tmux-sacale-mas-partido/tmuxClose.png   "TmuxClose")
+![tmuxClose](https://clonbg.netlify.app/tmux-sacale-mas-partido/tmuxClose.png   "TmuxClose")
 
 Salu2

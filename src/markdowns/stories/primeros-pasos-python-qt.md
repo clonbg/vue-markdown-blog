@@ -12,11 +12,11 @@ En nuestro menú nos habrá salido un programa llamado *QtDesigner*, lo abrimos
 Cada vez que lo abrimos nos pregunta con que *plantilla* vamos a empezar. Le daremos *Main Window*, que es la raiz del programa. Qt funciona con un sistema de *Widgets*, todo lo que se añade es un *widget*, un botón, un label, etc.
 Para crear nuestro primer programa añadiremos un *Label* y un *Push Button* a  nuestra ventana.
 
-![Main Window](https://silly-goldberg-68d2eb.netlify.com/primeros-pasos-python-qt/mainWindow.png	"Arrastrando Widgets")
+![Main Window](https://clonbg.netlify.app/primeros-pasos-python-qt/mainWindow.png	"Arrastrando Widgets")
 
 Podemos ver como queda la interfaz con *Control+R*
 
-![Vista](https://silly-goldberg-68d2eb.netlify.com/primeros-pasos-python-qt/vista.png	"Vista del programa")
+![Vista](https://clonbg.netlify.app/primeros-pasos-python-qt/vista.png	"Vista del programa")
 
 Ahora solo falta guardar la interfaz. *File > Save* y guardamos el archivo *ui*. Yo lo he llamado *post.ui*. Ahora al lado de donde hemos guardado el archivo *post.ui* creamos un archivo de *python*, yo lo he llamado *post.py* con este contenido:
 
@@ -55,6 +55,6 @@ Si todo ha ido bien se nos tiene que abrir el programa. Ahora vamos a hacer que 
 
 Y cuando clickamos en el botón:
 
-![textoCambiado](https://silly-goldberg-68d2eb.netlify.com/primeros-pasos-python-qt/texto.png	"Texto cambiado")
+![textoCambiado](https://clonbg.netlify.app/primeros-pasos-python-qt/texto.png	"Texto cambiado")
 
 Salu2

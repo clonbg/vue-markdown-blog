@@ -11,7 +11,7 @@ Crear una cuenta en [freeDNS](https://freedns.afraid.org/signup/?plan=starter)
 
 En el menú de la izquierda pinchar en *subdomains* > *Add* para crear uno nuevo
 
-![subdominio](https://silly-goldberg-68d2eb.netlify.app/free-dns/subdomain.png   "Añadiendo un subdominio")
+![subdominio](https://clonbg.netlify.app/free-dns/subdomain.png   "Añadiendo un subdominio")
 
 De esta manera la dirección sería [http://lecheDeVaca.mooo.com](http://lecheDeVaca.mooo.com), en *Destination* tienes que poner tu IP pública
 

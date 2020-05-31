@@ -1,19 +1,19 @@
 {
-  "id": "tmux-sacale-mas-partido",
+  "id": "scroll-en-tmux",
   "categorias": ["Linux", "terminal", "Aplicaciones"],
-  "imagen": "/tmux.png",
-  "date": "21 de Mayo de 2020",
-  "title": "<strong>Tmux</strong>, sácale más partido a tu terminal",
-  "description": "Os dije en el post dedicado a <i>Alacritty</i> que os iba a hablar de <strong>Tmux</strong>, pues lo prometido es deuda, vamos allá: <strong>Tmux</strong> según pone en su descripción es un multiplexor de terminal..."
+  "imagen": "/scrollTmux.png",
+  //"date": "31 de Mayo de 2020",
+  "title": "Activar el <i>scroll</i> en <strong>Tmux</strong>",
+  //"description": "Os dije en el post dedicado a <i>Alacritty</i> que os iba a hablar de <strong>Tmux</strong>, pues lo prometido es deuda, vamos allá: <strong>Tmux</strong> según pone en su descripción es un multiplexor de terminal..."
 },
 
 <item>
-<title>Tmux, sácale más partido a tu terminal</title>
-<link>https://silly-goldberg-68d2eb.netlify.com/#/stories/tmux-sacale-mas-partido</link>
+<title>"Activar el scroll en Tmux</title>
+<link>https://clonbg.netlify.app/#/stories/scroll-en-tmux</link>
 <pubDate>Thu, 21 May 2020 10:33:26 -0400</pubDate>
-  <description><![CDATA[<img src="https://silly-goldberg-68d2eb.netlify.com/tmux-sacale-mas-partido/tmux.png" class="webfeedsFeaturedVisual" alt="" /><p>Os dije en el post dedicado a <i>Alacritty</i> que os iba a hablar de <strong>Tmux</strong>, pues lo prometido es deuda, vamos allá: <strong>Tmux</strong> según pone en su descripción...<br><a
-    href="https://silly-goldberg-68d2eb.netlify.com/#/stories/tmux-sacale-mas-partido"
+  //<description><![CDATA[<img src="https://clonbg.netlify.app/scroll-en-tmux/scrollTmux.png" class="webfeedsFeaturedVisual" alt="" /><p>Os dije en el post dedicado a <i>Alacritty</i> que os iba a hablar de <strong>Tmux</strong>, pues lo prometido es deuda, vamos allá: <strong>Tmux</strong> según pone en su descripción...<br><a
+    href="https://clonbg.netlify.app/#/stories/scroll-en-tmux"
     target="_blank"
     >Leer más</a></p>]]></description>
-<guid>https://silly-goldberg-68d2eb.netlify.com/tmux-sacale-mas-partido/tmux.png</guid>
+<guid>https://clonbg.netlify.app/scroll-en-tmux/scrollTmux.png</guid>
 </item>

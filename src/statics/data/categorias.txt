@@ -10,3 +10,4 @@ Redes
 Programación
 Python
 Aplicaciones
+Scripts

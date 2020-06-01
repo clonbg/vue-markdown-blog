@@ -67,7 +67,7 @@ He ejecutado:
 
 Y he añadido esta línea con la ruta de mi script:
 <pre>
-    */5 * * * * /bin/sh /home/clonbg/Git/Scripts/MisScripts/bateria.sh
+*/5 * * * * /bin/sh /home/clonbg/Git/Scripts/MisScripts/bateria.sh
 </pre>
 
 Con esto hacemos que se ejecute cada cinco minutos, y...

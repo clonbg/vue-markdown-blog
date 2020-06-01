@@ -4,7 +4,7 @@
       "id": "script-aviso-bateria",
       "categorias": ["Linux", "Scripts", "Aplicaciones"],
       "imagen": "/bateria_sh.png",
-      "date": "31 de Mayo de 2020",
+      "date": "1 de Junio de 2020",
       "title": "<i>Script</i> para avisar de la carga de la batería",
       "description": "Este fin de semana he instalado <strong>ArchLinux</strong> con el escritorio <strong>MATE</strong>, todo con ayuda de <a href='https://arcolinux.com/' target='_blank'>ArcoLinux</a>. Me he encontrado con que el <i>gestor de energía</i>..."
     },

@@ -14,7 +14,7 @@
 <height>65</height>
 </image>
 <item>
-<title>"Activar el scroll en Tmux</title>
+<title>Activar el scroll en Tmux</title>
 <link>https://clonbg.netlify.app/#/stories/scroll-en-tmux</link>
 <pubDate>Sun, 31 May 2020 10:33:26 -0400</pubDate>
   <description><![CDATA[<img src="https://clonbg.netlify.app/scroll-en-tmux/scrollTmux.png" class="webfeedsFeaturedVisual" alt="" /><p>Algo muy sencillo que me ha traído de cabeza ha sido activar el <i>scroll</i> en <strong>tmux</strong>. Me hacía falta porque en <strong>Linux</strong> es fundamental leer lo que pasa...<br><a

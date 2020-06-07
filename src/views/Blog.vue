@@ -11,11 +11,10 @@ import BLOGENTRIES from "@/statics/data/blogs.json";
 
 export default {
   name: "home",
-  components: {
-  },
+  components: {},
   data() {
     return {
-      publicPath: process.env.BASE_URL,
+      publicPath: process.env.BASE_URL
     };
   },
 

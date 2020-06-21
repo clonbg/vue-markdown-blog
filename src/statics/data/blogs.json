@@ -1,6 +1,14 @@
 {
   "stories": [
     {
+      "id": "crear-servicio",
+      "categorias": ["Linux", "Scripts"],
+      "imagen": "/servicio.png",
+      "date": "21 de Junio de 2020",
+      "title": "Ejecutar un script al iniciar la Raspberry Pi",
+      "description": "Vamos a crear un servicio con <i>systemd</i> que se ejecute cada vez que se inicie la <strong>Raspberry Pi</strong>. En mi caso tengo instalado <a href='https://dietpi.com/' target='_blank'>dietpi</a>, pero cualquier..."
+    },
+    {
       "id": "script-aviso-bateria",
       "categorias": ["Linux", "Scripts", "Aplicaciones"],
       "imagen": "/bateria_sh.png",
@@ -41,12 +49,12 @@
       "description": "Vamos a crear nuestro primer programa gráfico con Python y PyQt, es mucho más sencillo de lo que parece. Lo primero que tenemos que hacer es..."
     },
     {
-        "id": "free-dns",
-        "categorias": ["Redes","Linux"],
-        "imagen": "/free-dns.jpg",
-        "date": "03 de Mayo de 2020",
-        "title": "Conectarnos desde fuera de la red con <strong>free-dns</strong>",
-        "description": "<strong>free-dns</strong> es un servicio gratuito con el que nos podremos conectar a nuestro ordenador desde fuera de la red. Lo uso para conectarme a una..."
+      "id": "free-dns",
+      "categorias": ["Redes", "Linux"],
+      "imagen": "/free-dns.jpg",
+      "date": "03 de Mayo de 2020",
+      "title": "Conectarnos desde fuera de la red con <strong>free-dns</strong>",
+      "description": "<strong>free-dns</strong> es un servicio gratuito con el que nos podremos conectar a nuestro ordenador desde fuera de la red. Lo uso para conectarme a una..."
     },
     {
       "id": "git-password",

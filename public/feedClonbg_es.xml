@@ -7,12 +7,22 @@
  <atom:link href="https://clonbg.netlify.app/feedClonbg_es.xml" rel="self" type="application/rss+xml"/>
 <language>es-ES</language>
 <image>
-  <title>Blog de Clonbg</title>
+<title>Blog de Clonbg</title>
 <url>https://clonbg.netlify.app/img/logo_clonbg_es.8a50aa92.jpg</url>
 <link>http://clonbg.es</link>
 <width>144</width>
 <height>65</height>
 </image>
+<item>
+<title>Ejecutar un script al iniciar la Raspberry Pi</title>
+<link>https://clonbg.netlify.app/#/stories/crear-servicio</link>
+<pubDate>Sun, 21 Jun 2020 10:33:26 -0400</pubDate>
+  <description><![CDATA[<img src="https://clonbg.netlify.app/crear-servicio/servicio.png" class="webfeedsFeaturedVisual" alt="" /><p>Vamos a crear un servicio con <i>systemd</i> que se ejecute cada vez que se inicie la <strong>Raspberry Pi</strong>. En mi caso tengo instalado <a href='https://dietpi.com/' target='_blank'>dietpi</a>, pero cualquier...<br><a
+    href="https://clonbg.netlify.app/#/stories/servicio.png"
+    target="_blank"
+    >Leer más</a></p>]]></description>
+<guid>https://clonbg.netlify.app/crear-servicio/servicio.png</guid>
+</item>
 <item>
 <title>Script para avisar de la carga de la batería</title>
 <link>https://clonbg.netlify.app/#/stories/script-aviso-bateria</link>

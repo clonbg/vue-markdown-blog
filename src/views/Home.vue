@@ -39,7 +39,7 @@
               </div>
               </h3>
               <div class="container-fluid margen-descripcion">
-                <div @click="$router.push({name: entry.id})" v-html="entry.description" class="mx-auto col-lg-7 text-justify"></div>
+                <div v-html="entry.description" class="mx-auto col-lg-7 text-justify"></div>
               </div>
             </div>
           </div>

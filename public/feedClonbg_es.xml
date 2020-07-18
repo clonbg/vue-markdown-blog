@@ -14,11 +14,21 @@
 <height>65</height>
 </image>
 <item>
+<title>Mi primer CRUD con Python</title>
+<link>https://clonbg.netlify.app/#/stories/crud_con_python</link>
+<pubDate>Sat, 18 Jul 2020 10:33:26 -0400</pubDate>
+  <description><![CDATA[<img src="https://clonbg.netlify.app/crud_con_python/crud.png" class="webfeedsFeaturedVisual" alt="" /><p>He hecho un <strong>CRUD (Create, Read, Update and Delete)</strong> con <i>Python</i>, y diréis, porqué? Yo os lo contaré, este tipo de 'proyectitos' son fundamentales para...<br><a
+    href="https://clonbg.netlify.app/#/stories/crud_con_python"
+    target="_blank"
+    >Leer más</a></p>]]></description>
+<guid>https://clonbg.netlify.app/crud_con_python/crud.png</guid>
+</item>
+<item>
 <title>Ejecutar un script al iniciar la Raspberry Pi</title>
 <link>https://clonbg.netlify.app/#/stories/crear-servicio</link>
 <pubDate>Sun, 21 Jun 2020 10:33:26 -0400</pubDate>
   <description><![CDATA[<img src="https://clonbg.netlify.app/crear-servicio/servicio.png" class="webfeedsFeaturedVisual" alt="" /><p>Vamos a crear un servicio con <i>systemd</i> que se ejecute cada vez que se inicie la <strong>Raspberry Pi</strong>. En mi caso tengo instalado <a href='https://dietpi.com/' target='_blank'>dietpi</a>, pero cualquier...<br><a
-    href="https://clonbg.netlify.app/#/stories/servicio.png"
+    href="https://clonbg.netlify.app/#/stories/crear-servicio"
     target="_blank"
     >Leer más</a></p>]]></description>
 <guid>https://clonbg.netlify.app/crear-servicio/servicio.png</guid>

@@ -1,6 +1,14 @@
 {
   "stories": [
     {
+      "id": "crud_con_python",
+      "categorias": ["Git", "Programación", "Python"],
+      "imagen": "/crud.png",
+      "date": "18 de Julio de 2020",
+      "title": "Mi primer CRUD con Python",
+      "description": "He hecho un <strong>CRUD (Create, Read, Update and Delete)</strong> con <i>Python</i>, y diréis, porqué? Yo os lo contaré, este tipo de 'proyectitos' son fundamentales para..."
+    },
+    {
       "id": "crear-servicio",
       "categorias": ["Linux", "Scripts"],
       "imagen": "/servicio.png",

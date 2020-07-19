@@ -41,9 +41,7 @@
                 <div class="container-fluid margen-descripcion">
                   <div class="mx-auto col-lg-7 text-justify">
                     <div v-html="entry.description"></div>
-                    <md-button class="back" @click="$router.push({name: entry.id})">
-                      Leer más
-                      </md-button>
+                    <md-button class="back" @click="$router.push({name: entry.id})">Leer más</md-button>
                   </div>
                 </div>
               </div>

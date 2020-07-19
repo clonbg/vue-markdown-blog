@@ -45,6 +45,7 @@ export default {
 .blog {
   max-width: 80vw;
   margin: 10rem auto;
+  margin-top: 0;
 
   .back {
     background-color: #42b883;

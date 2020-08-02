@@ -11,3 +11,5 @@ Programación
 Python
 Aplicaciones
 Scripts
+Privacidad
+Android

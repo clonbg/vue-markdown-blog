@@ -78,7 +78,7 @@ Al final del archivo añadimos
 	@reboot		root	/etc/cron.d/free-dns.sh>/dev/null
 	*/5 * * * *	root	/etc/cron.d/free-dns.sh>/dev/null
 	
-Es muy importante abrir los puertos *80* y *443* en el router para que se conecte fuera la tarea y para que vuelva la información.
+Es muy importante abrir los puertos *80* y *443* en el router para que se conecte fuera la tarea y para que vuelva la información
 
 Ahora ejecutamos
 

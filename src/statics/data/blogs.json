@@ -1,6 +1,14 @@
 {
   "stories": [
     {
+      "id": "radicale",
+      "categorias": ["Seguridad", "Android"],
+      "imagen": "/radicale.png",
+      "date": "16 de Agosto de 2020",
+      "title": "Mi propio calendario y mi libreta de contactos con <strong>Radicale</strong>",
+      "description": "Os contaba en el anterior post la adquisición de mi nuevo terminal y de la 'necesidad' de alejarme de <stron>Google</strong>. Dos herramientas muy importantes..."
+    },
+    {
       "id": "hauwei-sin-google",
       "categorias": ["Linux", "Privacidad", "Android"],
       "imagen": "/sin-google.png",

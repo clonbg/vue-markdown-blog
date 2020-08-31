@@ -1,6 +1,14 @@
 {
   "stories": [
     {
+      "id": "vuex-nuxt-example",
+      "categorias": ["VueJS", "Javascript", "Programación"],
+      "imagen": "/vuex.png",
+      "date": "31 de Agosto de 2020",
+      "title": "Ejemplo de <strong>Vuex</strong> con <strong>Nuxt</strong>",
+      "description": "Si no sabéis lo que es <strong>Vuex</strong> o <strong>Nuxt</strong> os diré que '<strong>Vuex</strong> es un complemento oficial para <strong>Vue.js</strong> que ofrece un almacén de datos centralizado para..."
+    },
+    {
       "id": "radicale",
       "categorias": ["Seguridad", "Android"],
       "imagen": "/radicale.png",

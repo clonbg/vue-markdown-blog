@@ -1,5 +1,5 @@
 # Ejemplo de Vuex con Nuxt
-#### 30/08/2020
+#### 31/08/2020
 
 Si no sabéis lo que es *Vuex* o *Nuxt* os diré que "Vuex es un complemento oficial para Vue.js que ofrece un almacén de datos centralizado para usar dentro de su aplicación", en pocas palabras es como tener *variables globales* en toda la aplicación. Y *Nuxt* "es un framework web gratuito y de código abierto basado en Vue.js, Node.js, Webpack y Babel.js".
 

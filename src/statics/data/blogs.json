@@ -1,6 +1,14 @@
 {
   "stories": [
     {
+      "id": "literales",
+      "categorias": ["VueJS", "Javascript", "Programación"],
+      "imagen": "/literales.png",
+      "date": "13 de Septiembre de 2020",
+      "title": "<i>Template literals</i> o <i>comillas invertidas</i>",
+      "description": "Como sabeis en JavaScript, para declarar un String hay que ponerlo entre comillas:<pre>const texto = 'me llamo Manuel'</pre>Desde la versión ES6 es..."
+    },
+    {
       "id": "vuex-nuxt-example",
       "categorias": ["VueJS", "Javascript", "Programación"],
       "imagen": "/vuex.png",

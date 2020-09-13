@@ -10,7 +10,7 @@
               <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
                 <div class="col">
                   <a href="https://twitter.com/clonbg1" target="_blank">
-                    <img class="logo" src="@/icons/twitter-brands.svg" />
+                    <img class="logo" src="@/icons/nariz.svg" />
                   </a>
                 </div>
                 <div class="col">

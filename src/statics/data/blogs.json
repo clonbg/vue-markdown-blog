@@ -1,8 +1,22 @@
 {
   "stories": [
     {
+      "id": "nativefier",
+      "categorias": [
+        "Aplicaciones","Linux"
+      ],
+      "imagen": "/nativefier.png",
+      "date": "27 de Septiembre de 2020",
+      "title": "Crea tus propias aplicaciones web con <strong>Nativefier</strong>",
+      "description": "Esta es una maravillosa utilidad que convierte en aplicación <i>electrón</i> una dirección web. De esta manera puedes tener una aplicación de escritorio..."
+    },
+    {
       "id": "literales",
-      "categorias": ["VueJS", "Javascript", "Programación"],
+      "categorias": [
+        "VueJS",
+        "Javascript",
+        "Programación"
+      ],
       "imagen": "/literales.png",
       "date": "13 de Septiembre de 2020",
       "title": "<i>Template literals</i> o <i>comillas invertidas</i>",
@@ -10,7 +24,11 @@
     },
     {
       "id": "vuex-nuxt-example",
-      "categorias": ["VueJS", "Javascript", "Programación"],
+      "categorias": [
+        "VueJS",
+        "Javascript",
+        "Programación"
+      ],
       "imagen": "/vuex.png",
       "date": "31 de Agosto de 2020",
       "title": "Ejemplo de <strong>Vuex</strong> con <strong>Nuxt</strong>",
@@ -18,7 +36,10 @@
     },
     {
       "id": "radicale",
-      "categorias": ["Seguridad", "Android"],
+      "categorias": [
+        "Seguridad",
+        "Android"
+      ],
       "imagen": "/radicale.png",
       "date": "16 de Agosto de 2020",
       "title": "Mi propio calendario y mi libreta de contactos con <strong>Radicale</strong>",
@@ -26,7 +47,11 @@
     },
     {
       "id": "huawei-sin-google",
-      "categorias": ["Linux", "Privacidad", "Android"],
+      "categorias": [
+        "Linux",
+        "Privacidad",
+        "Android"
+      ],
       "imagen": "/sin-google.png",
       "date": "2 de Agosto de 2020",
       "title": "<i>Huawei P40 Lite</i>, una opción sin <strong>Google</strong>",
@@ -34,7 +59,11 @@
     },
     {
       "id": "crud_con_python",
-      "categorias": ["Git", "Programación", "Python"],
+      "categorias": [
+        "Git",
+        "Programación",
+        "Python"
+      ],
       "imagen": "/crud.png",
       "date": "18 de Julio de 2020",
       "title": "Mi primer CRUD con Python",
@@ -42,7 +71,10 @@
     },
     {
       "id": "crear-servicio",
-      "categorias": ["Linux", "Scripts"],
+      "categorias": [
+        "Linux",
+        "Scripts"
+      ],
       "imagen": "/servicio.png",
       "date": "21 de Junio de 2020",
       "title": "Ejecutar un script al iniciar la Raspberry Pi",
@@ -50,7 +82,11 @@
     },
     {
       "id": "script-aviso-bateria",
-      "categorias": ["Linux", "Scripts", "Aplicaciones"],
+      "categorias": [
+        "Linux",
+        "Scripts",
+        "Aplicaciones"
+      ],
       "imagen": "/bateria_sh.png",
       "date": "1 de Junio de 2020",
       "title": "<i>Script</i> para avisar de la carga de la batería",
@@ -58,7 +94,11 @@
     },
     {
       "id": "scroll-en-tmux",
-      "categorias": ["Linux", "terminal", "Aplicaciones"],
+      "categorias": [
+        "Linux",
+        "terminal",
+        "Aplicaciones"
+      ],
       "imagen": "/scrollTmux.png",
       "date": "31 de Mayo de 2020",
       "title": "Activar el <i>scroll</i> en <strong>Tmux</strong>",
@@ -66,7 +106,11 @@
     },
     {
       "id": "tmux-sacale-mas-partido",
-      "categorias": ["Linux", "terminal", "Aplicaciones"],
+      "categorias": [
+        "Linux",
+        "terminal",
+        "Aplicaciones"
+      ],
       "imagen": "/tmux.png",
       "date": "21 de Mayo de 2020",
       "title": "<strong>Tmux</strong>, sácale más partido a tu terminal",
@@ -74,7 +118,11 @@
     },
     {
       "id": "alacritty-la-terminal-mas-rapida",
-      "categorias": ["Linux", "terminal", "Aplicaciones"],
+      "categorias": [
+        "Linux",
+        "terminal",
+        "Aplicaciones"
+      ],
       "imagen": "/alacritty.png",
       "date": "17 de Mayo de 2020",
       "title": "<strong>Alacritty</strong>, la terminal más rápida",
@@ -82,7 +130,11 @@
     },
     {
       "id": "primeros-pasos-python-qt",
-      "categorias": ["Linux", "Programación", "Python"],
+      "categorias": [
+        "Linux",
+        "Programación",
+        "Python"
+      ],
       "imagen": "/qtdesigner.png",
       "date": "05 de Mayo de 2020",
       "title": "Primeros pasos con <i>PyQt</i> y <i>QtDesigner</i>. Primer programa con <i>Python</i>",
@@ -90,7 +142,10 @@
     },
     {
       "id": "free-dns",
-      "categorias": ["Redes", "Linux"],
+      "categorias": [
+        "Redes",
+        "Linux"
+      ],
       "imagen": "/free-dns.jpg",
       "date": "03 de Mayo de 2020",
       "title": "Conectarnos desde fuera de la red con <strong>free-dns</strong>",
@@ -98,7 +153,11 @@
     },
     {
       "id": "git-password",
-      "categorias": ["Git", "Terminal", "Seguridad"],
+      "categorias": [
+        "Git",
+        "Terminal",
+        "Seguridad"
+      ],
       "imagen": "/git-password.png",
       "date": "11 de Abril de 2020",
       "title": "Hacer que <i>git</i> no pida contraseña",
@@ -106,7 +165,10 @@
     },
     {
       "id": "comandos-git",
-      "categorias": ["Git", "Terminal"],
+      "categorias": [
+        "Git",
+        "Terminal"
+      ],
       "imagen": "/comandos-git.jpg",
       "date": "4 de Abril de 2020",
       "title": "Los comandos que necesito para trabajar con <i>git</i> desde la terminal",
@@ -114,7 +176,10 @@
     },
     {
       "id": "mkinitcpio",
-      "categorias": ["Errores", "Linux"],
+      "categorias": [
+        "Errores",
+        "Linux"
+      ],
       "imagen": "/mkinitcpio.jpg",
       "date": "26 de Marzo de 2020",
       "title": "Possibly missing firmware for module: aic94xx, wd719x",
@@ -122,7 +187,10 @@
     },
     {
       "id": "buscar-en-ficheros",
-      "categorias": ["Linux", "Terminal"],
+      "categorias": [
+        "Linux",
+        "Terminal"
+      ],
       "imagen": "/search.png",
       "date": "22 de Marzo de 2020",
       "title": "Buscar archivos en Linux por nombre o contenido",
@@ -130,7 +198,9 @@
     },
     {
       "id": "chuleta-de-markdown",
-      "categorias": ["Markdown"],
+      "categorias": [
+        "Markdown"
+      ],
       "imagen": "/markdown.png",
       "date": "17 de Marzo de 2020",
       "title": "Mi chuleta de Markdown",
@@ -138,7 +208,11 @@
     },
     {
       "id": "manuales-vuejs-espanol",
-      "categorias": ["Javascript", "VueJS", "Programación"],
+      "categorias": [
+        "Javascript",
+        "VueJS",
+        "Programación"
+      ],
       "imagen": "/vuejs.jpg",
       "date": "15 de Marzo de 2020",
       "title": "Manuales de VueJS en español",

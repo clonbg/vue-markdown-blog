@@ -14,10 +14,20 @@
 <height>65</height>
 </image>
 <item>
+<title>Un par de cursos de Youtube sobre programación</title>
+<link>https://clonbg.netlify.app/#/stories/cursos-youtube</link>
+<pubDate>Sun, 18 Oct 2020 10:33:26 -0400</pubDate>
+  <description><![CDATA[<img src="https://clonbg.netlify.app/cursos-youtube/cursos.jpg" class="webfeedsFeaturedVisual" alt="" /><p>Hoy en día hay muchos sitios donde poder formarse, unos mejores y otros de menor calidad. Yo recomiendo <strong>Youtube</strong>, porque es rápido, lo tienes...<br><a
+    href="https://clonbg.netlify.app/#/stories/cursos-youtube"
+    target="_blank"
+    >Leer más</a></p>]]></description>
+<guid>https://clonbg.netlify.app/cursos-youtube/cursos.jpg</guid>
+</item>
+<item>
 <title>Crea tus propias aplicaciones web con Nativefier</title>
-<link>https://clonbg.netlify.app/#/stories/nativefier</link>
-<pubDate>Sun, 27 Sep 2020 10:33:26 -0400</pubDate>
-  <description><![CDATA[<img src="https://clonbg.netlify.app/nativefier/nativefier.png" class="webfeedsFeaturedVisual" alt="" /><p>Esta es una maravillosa utilidad que convierte en aplicación <i>electrón</i> una dirección web. De esta manera puedes tener una aplicación de escritorio...<br><a
+	<link>https://clonbg.netlify.app/#/stories/nativefier</link>
+	<pubDate>Sun, 27 Sep 2020 10:33:26 -0400</pubDate>
+  	<description><![CDATA[<img src="https://clonbg.netlify.app/nativefier/nativefier.png" class="webfeedsFeaturedVisual" alt="" /><p>Esta es una maravillosa utilidad que convierte en aplicación <i>electrón</i> una dirección web. De esta manera puedes tener una aplicación de escritorio...<br><a
     href="https://clonbg.netlify.app/#/stories/nativefier"
     target="_blank"
     >Leer más</a></p>]]></description>

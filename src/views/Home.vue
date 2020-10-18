@@ -9,15 +9,29 @@
     <div class="row">
       <div class="mx-auto">
         <div class="sections">
-          <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
+          <div
+            v-for="(section, index) in Object.keys(entries)"
+            :key="index"
+            class="group"
+          >
             <!-- <h2 class="center">{{section}}</h2> -->
-            <div class="section" v-for="(entry, num) in entries[section]" :key="entry.id">
-              <div v-if="num<contador && num>=contador-10" class="entry">
-                <h3 class="text-decoration-none" @click="$router.push({name: entry.id})">
+            <div
+              class="section"
+              v-for="(entry, num) in entries[section]"
+              :key="entry.id"
+            >
+              <div v-if="num < contador && num >= contador - 10" class="entry">
+                <h3
+                  class="text-decoration-none"
+                  @click="$router.push({ name: entry.id })"
+                >
                   <div class="d-flex justify-content-center">
                     <div class="d-flex flex-column bd-highlight mb-3">
                       <div class="p-2 bd-highlight">
-                        <img :src="`${publicPath}${entry.id}${entry.imagen}`" class="img-fluid" />
+                        <img
+                          :src="`${publicPath}${entry.id}${entry.imagen}`"
+                          class="img-fluid"
+                        />
                       </div>
                       <div class="p-2 bd-highlight">
                         <div
@@ -27,11 +41,17 @@
                         ></div>
                       </div>
                       <div class="p-0 m-0 bd-highlight">
-                        <span class="subtitle text-success">{{entry.date}}</span>
-                        <span class="categorias" v-for="item in entry.categorias" :key="item.id">
+                        <span class="subtitle text-success">{{
+                          entry.date
+                        }}</span>
+                        <span
+                          class="categorias"
+                          v-for="item in entry.categorias"
+                          :key="item.id"
+                        >
                           <div class="inline">
                             <i class="fa fa-star fa-lg fa-spin"></i>
-                            <span class="pl-2">{{item}}</span>
+                            <span class="pl-2">{{ item }}</span>
                           </div>
                         </span>
                       </div>
@@ -41,7 +61,11 @@
                 <div class="container-fluid margen-descripcion">
                   <div class="mx-auto col-lg-7 text-justify">
                     <div v-html="entry.description"></div>
-                    <md-button class="back" @click="$router.push({name: entry.id})">Leer más</md-button>
+                    <md-button
+                      class="back"
+                      @click="$router.push({ name: entry.id })"
+                      >Leer más</md-button
+                    >
                   </div>
                 </div>
               </div>
@@ -52,13 +76,33 @@
     </div>
     <div class="row">
       <div class="mx-auto botones">
-        <label class="botonera" @click="avanceFinal" :class="{colorGris: computedAdelante}">&lt;&lt;</label>
-        <label class="botonera" @click="avanceUno" :class="{colorGris: computedAdelante}">&lt;</label>
-        <label class="numPag">{{contador/10}}</label>
-        <label class="botonera" @click="atrasUno" :class="{colorGris: computedAtras}">&gt;</label>
-        <label class="botonera" @click="avanceInicio" :class="{colorGris: computedAtras}">&gt;&gt;</label>
+        <label
+          class="botonera"
+          @click="avanceFinal"
+          :class="{ colorGris: computedAdelante }"
+          >&lt;&lt;</label
+        >
+        <label
+          class="botonera"
+          @click="avanceUno"
+          :class="{ colorGris: computedAdelante }"
+          >&lt;</label
+        >
+        <label class="numPag">{{ contador / 10 }}</label>
+        <label
+          class="botonera"
+          @click="atrasUno"
+          :class="{ colorGris: computedAtras }"
+          >&gt;</label
+        >
+        <label
+          class="botonera"
+          @click="avanceInicio"
+          :class="{ colorGris: computedAtras }"
+          >&gt;&gt;</label
+        >
       </div>
-      {{contador}}
+      {{ contador }}
     </div>
   </div>
 </template>
@@ -70,14 +114,14 @@ import BLOGENTRIES from "@/statics/data/blogs.json";
 export default {
   name: "home",
   components: {
-    BLOGENTRIES
+    BLOGENTRIES,
   },
   data() {
     return {
       publicPath: process.env.BASE_URL,
       contador: 10,
       atras: false,
-      adelante: false
+      adelante: false,
     };
   },
   methods: {
@@ -98,7 +142,7 @@ export default {
     avanceInicio() {
       this.contador = 10;
       //console.log(this.contador)
-    }
+    },
   },
   computed: {
     entries() {
@@ -119,8 +163,8 @@ export default {
         this.adelante = false;
       }
       return this.adelante;
-    }
-  }
+    },
+  },
 };
 </script>
 <style lang="scss" scoped>

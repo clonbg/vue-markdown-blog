@@ -1,5 +1,18 @@
 {
   "stories": [
+        {
+      "id": "cursos-youtube",
+      "categorias": [
+        "VueJs",
+        "Javascript",
+        "Python",
+        "Programación"
+      ],
+      "imagen": "/cursos.jpg",
+      "date": "18 de Octubre de 2020",
+      "title": "Un par de cursos de <strong>Youtube</strong> sobre programación",
+      "description": "Hoy en día hay muchos sitios donde poder formarse, unos mejores y otros de menor calidad. Yo recomiendo <strong>Youtube</strong>, porque es rápido, lo tienes..."
+    },
     {
       "id": "nativefier",
       "categorias": [

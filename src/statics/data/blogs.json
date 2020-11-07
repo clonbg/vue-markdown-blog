@@ -1,6 +1,17 @@
 {
   "stories": [
-        {
+    {
+      "id": "portainer",
+      "categorias": [
+        "Aplicaciones",
+        "Docker"
+      ],
+      "imagen": "/portainer.png",
+      "date": "7 de Noviembre de 2020",
+      "title": "<strong>Portainer</strong>, magnífico gestor para Docker",
+      "description": "Cuando pruebas <i>docker</i> una vez, te engancha por su facilidad y porque, al estar separado en contenedores no puede corromper tu sistema. Después..."
+    },
+    {
       "id": "cursos-youtube",
       "categorias": [
         "VueJs",
@@ -16,7 +27,8 @@
     {
       "id": "nativefier",
       "categorias": [
-        "Aplicaciones","Linux"
+        "Aplicaciones",
+        "Linux"
       ],
       "imagen": "/nativefier.png",
       "date": "27 de Septiembre de 2020",

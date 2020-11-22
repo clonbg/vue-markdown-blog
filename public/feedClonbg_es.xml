@@ -14,10 +14,10 @@
 <height>65</height>
 </image>
 <item>
-<title>Mantener actualizados los contenedores docker con watchtower</title>
+<title>Mantener actualizados los contenedores Docker con Watchtower</title>
 	<link>https://clonbg.netlify.app/#/stories/watchtower</link>
 	<pubDate>Sun, 22 Nov 2020 10:33:26 -0400</pubDate>
-  	<description><![CDATA[<img src="https://clonbg.netlify.app/watchtower/watchtower.png" class="webfeedsFeaturedVisual" alt="" /><p>Como os dije en la antrada anterior os voy a enseñar una herramienta que mantiene los contenedores <strong>docker</strong> actualizados. Esto se hace con...<br><a
+  	<description><![CDATA[<img src="https://clonbg.netlify.app/watchtower/watchtower.png" class="webfeedsFeaturedVisual" alt="" /><p>Como os dije en la antrada anterior os voy a enseñar una herramienta que mantiene los contenedores <i>docker</i> actualizados. Esto se hace con...<br><a
     href="https://clonbg.netlify.app/#/stories/watchtower"
     target="_blank"
     >Leer más</a></p>]]></description>

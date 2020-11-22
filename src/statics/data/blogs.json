@@ -7,8 +7,8 @@
       ],
       "imagen": "/watchtower.png",
       "date": "22 de Noviembre de 2020",
-      "title": "Mantener actualizados los contenedores <strong>docker</strong> con <strong>watchtower</strong>",
-      "description": "Como os dije en la antrada anterior os voy a enseñar una herramienta que mantiene los contenedores <strong>docker</strong> actualizados. Esto se hace con..."
+      "title": "Mantener actualizados los contenedores <i>docker</i> con <strong>Watchtower</strong>",
+      "description": "Como os dije en la antrada anterior os voy a enseñar una herramienta que mantiene los contenedores <i>docker</i> actualizados. Esto se hace con..."
     },
     {
       "id": "portainer",

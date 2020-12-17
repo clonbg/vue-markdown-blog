@@ -1,6 +1,18 @@
 {
   "stories": [
     {
+      "id": "sudo-sin-intervencion",
+      "categorias": [
+        "Linux",
+        "Terminal",
+        "Scripts"
+      ],
+      "imagen": "/sudo-sin-intervencion.png",
+      "date": "17 de Diciembre de 2020",
+      "title": "Usar <strong>sudo</strong> sin intervención del usuario",
+      "description": "Ultimamente he necesitado ejecutar unos <i>scripts</i> y era un problema tener que escribir la contraseña de <strong>sudo</strong> cada vez que se ejecutaba. He buscado..."
+    },
+    {
       "id": "watchtower",
       "categorias": [
         "Aplicaciones","Docker"

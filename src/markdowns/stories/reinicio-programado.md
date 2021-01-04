@@ -2,6 +2,7 @@
 #### 04/01/2021
 
 Últimamente he tenido bastantes problemas de conexión de la *Raspberry Pi*, cuando pasaban 2 ó 3 días sin reiniciarla (lo cual es algo habitual), a veces se bloqueaba y no podía acceder vía **ssh**, con lo que no podía reiniciarla hasta llegar a casa.
+Como hay ciertas horas, de madrugada, que la *Pi* no se utiliza, he decido que se reinicie todos los días a una determinada hora. Para esto la mejor solució
 
 Algo muy sencillo que me ha traído de cabeza ha sido activar el *scroll* en **tmux**. Me hacía falta porque en **Linux** es fundamental leer lo que pasa en la terminal, además cuando intentas ir hacia arriba van saliendo los últimos comandos, como cuando le das al botón de *flecha arriba* de nuestro teclado.
 
@@ -17,5 +18,6 @@ Visto en [https://superuser.com](https://superuser.com/questions/209437/how-do-i
 
 Salu2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDk5NzgxNSwtNDIzNjkwODldfQ==
+eyJoaXN0b3J5IjpbLTE3MTc2MDM5NDYsLTUxMDk5NzgxNSwtND
+IzNjkwODldfQ==
 -->

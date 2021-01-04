@@ -14,8 +14,9 @@ Una vez añadido hay que añadirle una línea con la siguiente estructura:
 
  - min: minuto en el que se va a ejecutar el comando, de 0 a 59
  - hor: hora en la que se va a ejecutar el comando, de 0 a 23
- - dom: día del mes en el que se va a ejecutar el comando, de 1 a 31. Si queremos que se ejecute todos los días hay que cambiarlo por un *mes en el que se va a ejecutar el comando, de 1 a 31. Si queremos que se ejecute todos los días hay que cambiarlo por un *
- - mon: 
+ - dom: día del mes en el que se va a ejecutar el comando, de 1 a 31. Si queremos que se ejecute todos los días hay que cambiarlo por un *
+ - mon: mes en el que se va a ejecutar el comando, de 1 a 12. Si queremos que se ejecute todos los meses hay que cambiarlo por un *
+ - dow: día de la semana que se va a ejecutar el comando, de 0 a 6. Si qui
 
  
 Algo muy sencillo que me ha traído de cabeza ha sido activar el *scroll* en **tmux**. Me hacía falta porque en **Linux** es fundamental leer lo que pasa en la terminal, además cuando intentas ir hacia arriba van saliendo los últimos comandos, como cuando le das al botón de *flecha arriba* de nuestro teclado.
@@ -32,6 +33,6 @@ Visto en [https://superuser.com](https://superuser.com/questions/209437/how-do-i
 
 Salu2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2NzQ1NDcwLC01MTA5OTc4MTUsLTQyMz
-Y5MDg5XX0=
+eyJoaXN0b3J5IjpbLTEyNjQ1NzY3MDAsLTUxMDk5NzgxNSwtND
+IzNjkwODldfQ==
 -->

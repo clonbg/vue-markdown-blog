@@ -10,13 +10,17 @@ Lo primero es abrir un terminal y escribir:
 
 Una vez añadido hay que añadirle una línea con la siguiente estructura:
 
-    min hor dom mon dow /sbin/shutdown -h now
+    min hor dom mon dow comando
 
  - min: minuto en el que se va a ejecutar el comando, de 0 a 59
  - hor: hora en la que se va a ejecutar el comando, de 0 a 23
  - dom: día del mes en el que se va a ejecutar el comando, de 1 a 31. Si queremos que se ejecute todos los días hay que cambiarlo por un *
  - mon: mes en el que se va a ejecutar el comando, de 1 a 12. Si queremos que se ejecute todos los meses hay que cambiarlo por un *
  - dow: día de la semana que se va a ejecutar el comando, de 0 a 6. Si pones un 0 el domingo, y si pones un 6 el sábado. Si queremos que se ejecute todos los días hay que cambiarlo por un *
+ - comando: el comando que se ejecuta, en nuestro caso `/sbin/reboot -h now`
+
+Para que se reinicie todos los días a las 4:00 quedaría asi:
+
 
  
 Algo muy sencillo que me ha traído de cabeza ha sido activar el *scroll* en **tmux**. Me hacía falta porque en **Linux** es fundamental leer lo que pasa en la terminal, además cuando intentas ir hacia arriba van saliendo los últimos comandos, como cuando le das al botón de *flecha arriba* de nuestro teclado.
@@ -33,6 +37,6 @@ Visto en [https://superuser.com](https://superuser.com/questions/209437/how-do-i
 
 Salu2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDQ5OTY3NywtNTEwOTk3ODE1LC00Mj
+eyJoaXN0b3J5IjpbMTczNjM3NTc1NywtNTEwOTk3ODE1LC00Mj
 M2OTA4OV19
 -->

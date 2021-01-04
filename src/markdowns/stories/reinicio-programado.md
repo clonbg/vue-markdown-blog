@@ -1,5 +1,7 @@
 # Programar el reinicio del ordenador de forma automática mediante **Cron**
-#### 31/05/2020
+#### 04/01/2021
+
+Últimamente he tenido bastantes problemas de conexión de la *Raspberry Pi*, 
 
 Algo muy sencillo que me ha traído de cabeza ha sido activar el *scroll* en **tmux**. Me hacía falta porque en **Linux** es fundamental leer lo que pasa en la terminal, además cuando intentas ir hacia arriba van saliendo los últimos comandos, como cuando le das al botón de *flecha arriba* de nuestro teclado.
 
@@ -15,5 +17,5 @@ Visto en [https://superuser.com](https://superuser.com/questions/209437/how-do-i
 
 Salu2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk4Njk4MjIsLTQyMzY5MDg5XX0=
+eyJoaXN0b3J5IjpbLTg0ODc0Mjg3MiwtNDIzNjkwODldfQ==
 -->

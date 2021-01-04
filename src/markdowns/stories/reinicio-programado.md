@@ -10,8 +10,12 @@ Lo primero es abrir un terminal y escribir:
 
 Una vez añadido hay que añadirle una línea con la siguiente estructura:
 
-    m h dom mon dow /sbin/shutdown -h now
-m: 
+    min hor dom mon dow /sbin/shutdown -h now
+
+ - min: minuto en el que se va a ejecutar el comando, de 0 a 59
+ - hor: hora en la que se va a ejecutar
+
+ 
 Algo muy sencillo que me ha traído de cabeza ha sido activar el *scroll* en **tmux**. Me hacía falta porque en **Linux** es fundamental leer lo que pasa en la terminal, además cuando intentas ir hacia arriba van saliendo los últimos comandos, como cuando le das al botón de *flecha arriba* de nuestro teclado.
 
 ![VueJs](https://clonbg.netlify.app/vuex-nuxt-example/vuex.png)
@@ -26,6 +30,6 @@ Visto en [https://superuser.com](https://superuser.com/questions/209437/how-do-i
 
 Salu2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTAzMzY0MCwtNTEwOTk3ODE1LC00Mj
+eyJoaXN0b3J5IjpbLTY0MzQwMTU2MiwtNTEwOTk3ODE1LC00Mj
 M2OTA4OV19
 -->

@@ -19,7 +19,8 @@ Una vez añadido hay que añadirle una línea con la siguiente estructura:
  - dow: día de la semana que se va a ejecutar el comando, de 0 a 6. Si pones un 0 el domingo, y si pones un 6 el sábado. Si queremos que se ejecute todos los días hay que cambiarlo por un *
  - comando: el comando que se ejecuta, en nuestro caso `/sbin/reboot -h now`
 
-Para que se reinicie todos los días a las 4:00 quedaría asi:
+Para que se reinicie todos los días a las 4:00 quedaría así:
+
 
 ![Crontab](https://clonbg.netlify.app/reinicio-programado/crontab.png)Una vez guardados los cambios, hay que reiniciar el servicio:
 
@@ -27,10 +28,10 @@ Para que se reinicie todos los días a las 4:00 quedaría asi:
 
 Ya hemos terminado, no era tan difícil!!?!
 
-Visto en [https://superuser.com](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux)
+Visto en [https://geekland.eu](https://geekland.eu/programar-el-apagado-del-ordenador/)
 
 Salu2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0NTA2NjM1LDE3MzYzNzU3NTcsLTUxMD
-k5NzgxNSwtNDIzNjkwODldfQ==
+eyJoaXN0b3J5IjpbNjU5NzAzNjUsNTY0NTA2NjM1LDE3MzYzNz
+U3NTcsLTUxMDk5NzgxNSwtNDIzNjkwODldfQ==
 -->

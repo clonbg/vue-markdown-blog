@@ -21,12 +21,16 @@ Una vez añadido hay que añadirle una línea con la siguiente estructura:
 
 Para que se reinicie todos los días a las 4:00 quedaría asi:
 
-![Crontab](https://clonbg.netlify.app/reinicio-programado/crontab.png)
+![Crontab](https://clonbg.netlify.app/reinicio-programado/crontab.png)Una vez guardados los cambios, hay que reiniciar el servicio:
+
+    sudo service cron restart
+
+
 
 Visto en [https://superuser.com](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux)
 
 Salu2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Mjg3NDI4NiwxNzM2Mzc1NzU3LC01MT
+eyJoaXN0b3J5IjpbMTU5NDI0NjAzMCwxNzM2Mzc1NzU3LC01MT
 A5OTc4MTUsLTQyMzY5MDg5XX0=
 -->

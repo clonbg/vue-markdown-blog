@@ -25,12 +25,12 @@ Para que se reinicie todos los días a las 4:00 quedaría asi:
 
     sudo service cron restart
 
-
+Ya hemos terminado, no era tan difícil!!?!
 
 Visto en [https://superuser.com](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux)
 
 Salu2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDI0NjAzMCwxNzM2Mzc1NzU3LC01MT
-A5OTc4MTUsLTQyMzY5MDg5XX0=
+eyJoaXN0b3J5IjpbNTY0NTA2NjM1LDE3MzYzNzU3NTcsLTUxMD
+k5NzgxNSwtNDIzNjkwODldfQ==
 -->

@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "id": "reinicio-programado",
+      "categorias": [
+        "Linux","Scripts"
+      ],
+      "imagen": "/crontab.png",
+      "date": "5 de Enero de 2021",
+      "title": "Programar el reinicio del ordenador de forma automática mediante <strong>Cron</strong>",
+      "description": "Últimamente he tenido bastantes problemas de conexión de la <i>Raspberry Pi</i>, cuando pasaban 2 ó 3 días sin reiniciarla (lo cual es algo habitual)..."
+    },
+    {
       "id": "sudo-sin-intervencion",
       "categorias": [
         "Linux",

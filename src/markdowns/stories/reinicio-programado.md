@@ -23,22 +23,10 @@ Para que se reinicie todos los días a las 4:00 quedaría asi:
 
 ![Crontab](https://clonbg.netlify.app/reinicio-programado/crontab.png)
 
-
- 
-Algo muy sencillo que me ha traído de cabeza ha sido activar el *scroll* en **tmux**. Me hacía falta porque en **Linux** es fundamental leer lo que pasa en la terminal, además cuando intentas ir hacia arriba van saliendo los últimos comandos, como cuando le das al botón de *flecha arriba* de nuestro teclado.
-
-![VueJs](https://clonbg.netlify.app/vuex-nuxt-example/vuex.png)
-
-Solo hay que crear un archivo de configuración de *tmux* y añadirle la opción, esto se puede hacer con tan solo una linea en nuestra terminal:
-
-    "set -g mouse on" >> ~/.tmux.conf
-
-Después de esto tienes que volver a abrir *tmux* y ya lo tienes
-
 Visto en [https://superuser.com](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux)
 
 Salu2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4Nzk1MzM2LDE3MzYzNzU3NTcsLTUxMD
-k5NzgxNSwtNDIzNjkwODldfQ==
+eyJoaXN0b3J5IjpbLTg2Mjg3NDI4NiwxNzM2Mzc1NzU3LC01MT
+A5OTc4MTUsLTQyMzY5MDg5XX0=
 -->

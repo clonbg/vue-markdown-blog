@@ -4,20 +4,20 @@
       <div class="row headline letra d-flex justify-content-center">
         <form action="#">
           <div class="form-group">
-            <md-button md-menu-trigger
-              ><a :href="`${publicPath}feedClonbg_es.xml`" target="_blank">
-                <img class="tamanoRss" src="@/icons/rss2.svg" width="100" /> </a
-            ></md-button>
+            <md-button md-menu-trigger>
+              <img class="tamanoRss mb-2" src="@/icons/lupa.svg" width="100" />
+            </md-button>
             <input
               type="text"
               name="busqueda"
               id="busqueda"
               class="letraBusqueda"
+              v-model="buscar"
+              placeholder="mínimo tres carácteres..."
             />
           </div>
         </form>
         <!-- https://vuematerial.io/components/app -->
-        <div class="letraData">hola {{ entries }}</div>
       </div>
     </div>
 
@@ -32,7 +32,7 @@
             <!-- <h2 class="center">{{section}}</h2> -->
             <div
               class="section"
-              v-for="(entry, num) in entries[section]"
+              v-for="(entry, num) in filtroBusqueda"
               :key="entry.id"
             >
               <div v-if="num < contador && num >= contador - 10" class="entry">
@@ -137,6 +137,7 @@ export default {
       contador: 10,
       atras: false,
       adelante: false,
+      buscar: "",
     };
   },
   methods: {
@@ -146,12 +147,12 @@ export default {
       }
     },
     avanceUno() {
-      if (this.contador <= BLOGENTRIES.stories.length) {
+      if (this.contador <= this.filtroBusqueda.length) {
         this.contador = this.contador + 10;
       }
     },
     avanceFinal() {
-      this.contador = (parseInt(BLOGENTRIES.stories.length / 10) + 1) * 10;
+      this.contador = (parseInt(this.filtroBusqueda.length / 10) + 1) * 10;
       //console.log(this.contador)
     },
     avanceInicio() {
@@ -163,6 +164,16 @@ export default {
     entries() {
       return BLOGENTRIES;
     },
+    filtroBusqueda: function () {
+      return BLOGENTRIES.stories.filter((client) => {
+        if (this.buscar.trim().length < 3) {
+          return client;
+        } else {
+          this.contador=10
+          return client.title.trim().toLowerCase().includes(this.buscar.trim().toLowerCase());
+        }
+      });
+    },
     computedAtras() {
       if (this.contador < 11) {
         this.atras = true;
@@ -172,13 +183,14 @@ export default {
       return this.atras;
     },
     computedAdelante() {
-      if (this.contador >= BLOGENTRIES.stories.length) {
+      if (this.contador >= this.filtroBusqueda.length) {
         this.adelante = true;
       } else {
         this.adelante = false;
       }
       return this.adelante;
     },
+    
   },
 };
 </script>

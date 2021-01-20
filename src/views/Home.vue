@@ -2,7 +2,22 @@
   <div class="home">
     <div class="container">
       <div class="row headline letra d-flex justify-content-center">
+        <form action="#">
+          <div class="form-group">
+            <md-button md-menu-trigger
+              ><a :href="`${publicPath}feedClonbg_es.xml`" target="_blank">
+                <img class="tamanoRss" src="@/icons/rss2.svg" width="100" /> </a
+            ></md-button>
+            <input
+              type="text"
+              name="busqueda"
+              id="busqueda"
+              class="letraBusqueda"
+            />
+          </div>
+        </form>
         <!-- https://vuematerial.io/components/app -->
+        <div class="letraData">hola {{ entries }}</div>
       </div>
     </div>
 
@@ -292,5 +307,16 @@ p {
   &:hover {
     background-color: transparent;
   }
+}
+.letraBusqueda {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tamanoRss {
+  max-width: 30px;
+}
+.letraData {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 </style>

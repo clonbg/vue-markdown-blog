@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "id": "docker-acestream",
+      "categorias": [
+        "Linux","Docker","Aplicaciones"
+      ],
+      "imagen": "/docker-acestream.jpeg",
+      "date": "24 de Enero de 2021",
+      "title": "Como ver contenido <strong>acestream</strong> en <strong>Linux</strong>",
+      "description": "Voy a explicar como veo yo contenido <strong>acestream</strong> en <strong>Linux</strong>. No voy a entrar en que contenidos son legítimos ver y que no, cada uno es responsable..."
+    },
+    {
       "id": "reinicio-programado",
       "categorias": [
         "Linux","Scripts"

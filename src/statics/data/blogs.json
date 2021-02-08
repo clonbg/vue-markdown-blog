@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "id": "copiar-mover-find",
+      "categorias": [
+        "Linux", "Terminal", "Scripts"
+      ],
+      "imagen": "/copiar-mover-find.png",
+      "date": "8 de Febrero de 2021",
+      "title": "Buscar archivos y copiar/mover con <i>find</i>",
+      "description": "Vamos a ver como copiar o mover archivos a la vez que los buscas. Este es el resultado de un problema, tuve que buscar archivos en la raiz de..."
+    },
+    {
       "id": "docker-acestream",
       "categorias": [
         "Linux","Docker","Aplicaciones"

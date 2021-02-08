@@ -14,6 +14,16 @@
 <height>65</height>
 </image>
 <item>
+<title>Buscar archivos y copiar/mover con find</title>
+	<link>https://clonbg.netlify.app/#/stories/copiar-mover-find</link>
+	<pubDate>Mon, 08 Feb 2021 10:33:26 -0400</pubDate>
+  	<description><![CDATA[<img src="https://clonbg.netlify.app/copiar-mover-find/copiar-mover-find.png" class="webfeedsFeaturedVisual" alt="" /><p>Vamos a ver como copiar o mover archivos a la vez que los buscas. Este es el resultado de un problema, tuve que buscar archivos en la raiz de...<br><a
+    href="https://clonbg.netlify.app/#/stories/copiar-mover-find"
+    target="_blank"
+    >Leer más</a></p>]]></description>
+<guid>https://clonbg.netlify.app/copiar-mover-find/copiar-mover-find.png</guid>
+</item>
+<item>
 <title>Como ver contenido <strong>acestream</strong> en <strong>Linux</strong></title>
 <link>https://clonbg.netlify.app/#/stories/docker-acestream</link>
 <pubDate>Sun, 24 Jan 2021 10:33:26 -0400</pubDate>

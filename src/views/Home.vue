@@ -208,7 +208,7 @@ export default {
 img {
   display: block;
   margin: 0 auto;
-  width: 60vh;
+  width: 100vh;
 }
 
 h2 {
@@ -223,6 +223,8 @@ h3 {
   color: #42b883;
   margin-bottom: 0;
   cursor: pointer;
+  width: 50vw;
+  margin: auto;
   &:hover {
     text-decoration: underline;
   }

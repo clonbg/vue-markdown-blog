@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "id": "autosubsync",
+      "categorias": [
+        "Terminal","Python","Aplicaciones"
+      ],
+      "imagen": "/autosubsync.PNG",
+      "date": "15 de Febrero de 2021",
+      "title": "Sincronizar automáticamente subtítulos utilizando el aprendizaje automático con <strong>autosubsync</strong>",
+      "description": "Muchas veces cuando tienes que sincronizar un subtítulo, bien por que es para otra versión del video o por el motivo que sea, tenemos que..."
+    },
+    {
       "id": "copiar-mover-find",
       "categorias": [
         "Linux", "Terminal", "Scripts"

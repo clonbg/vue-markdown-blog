@@ -14,6 +14,16 @@
 <height>65</height>
 </image>
 <item>
+<title>Conseguir la url para escuchar la radio online</title>
+	<link>https://clonbg.netlify.app/#/stories/url-radio</link>
+	<pubDate>Sun, 22 Nov 2020 10:33:26 -0400</pubDate>
+  	<description><![CDATA[<img src="https://clonbg.netlify.app/url-radio/url-radio.png" class="webfeedsFeaturedVisual" alt="" /><p>Vamos a ver como obtener al url de una radio web para poder escucharla en vlc, mpv, etc. Vamos a necesitar unicamente un navegador, yo voy a...<br><a
+    href="https://clonbg.netlify.app/#/stories/url-radio"
+    target="_blank"
+    >Leer más</a></p>]]></description>
+<guid>https://clonbg.netlify.app/url-radio/url-radio.png</guid>
+</item>
+<item>
 <title>Sincronizar automáticamente subtítulos utilizando el aprendizaje automático con autosubsync</title>
 <link>https://clonbg.netlify.app/#/stories/autosubsync</link>
 <pubDate>Mon, 15 Feb 2021 10:33:26 -0400</pubDate>

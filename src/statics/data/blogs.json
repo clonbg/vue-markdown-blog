@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "id": "url-radio",
+      "categorias": [
+        "Aplicaciones","Sonido"
+      ],
+      "imagen": "/url-radio.png",
+      "date": "19 de Febrero de 2021",
+      "title": "Conseguir la url para escuchar la radio online",
+      "description": "Vamos a ver como obtener al url de una radio web para poder escucharla en vlc, mpv, etc. Vamos a necesitar unicamente un navegador, yo voy a..."
+    },
+    {
       "id": "autosubsync",
       "categorias": [
         "Terminal","Python","Aplicaciones"
@@ -23,7 +33,7 @@
     {
       "id": "docker-acestream",
       "categorias": [
-        "Linux","Docker","Aplicaciones"
+        "Linux","Docker","Aplicaciones","Imagen"
       ],
       "imagen": "/docker-acestream.jpeg",
       "date": "24 de Enero de 2021",

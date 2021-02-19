@@ -14,3 +14,5 @@ Scripts
 Privacidad
 Android
 Docker
+Sonido
+Imagen

@@ -55,7 +55,7 @@
                           role="alert"
                         ></div>
                       </div>
-                      <div class="p-0 m-0 bd-highlight">
+                      <div class="p-0 m-0 bd-highlight mx-auto block">
                         <span class="subtitle text-success">{{
                           entry.date
                         }}</span>
@@ -210,6 +210,11 @@ img {
   margin: 0 auto;
   width: 100vh;
 }
+@media only screen and (max-width: 600px) {
+  img {
+    width: 50vh
+  }
+}
 
 h2 {
   color: #35495e;
@@ -223,8 +228,8 @@ h3 {
   color: #42b883;
   margin-bottom: 0;
   cursor: pointer;
-  width: 50vw;
   margin: auto;
+  font-size: 1rem;
   &:hover {
     text-decoration: underline;
   }
@@ -290,7 +295,7 @@ p {
 }
 .tamanoTitulo {
   max-width: 500vh;
-  font-size: 80%;
+  font-size: 120%;
 }
 .letra {
   font-family: "Dancing Script", cursive;

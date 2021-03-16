@@ -10,7 +10,7 @@ Vamos a poner el ejemplo que tenemos un entramado de carpetas con archivos con e
 find ~/carpeta/prueba -name "*.json" -type f
 ```
 
-![eliminar-recursiva.png]((https://clonbg.netlify.app/eliminar-recursiva/eliminar-recursiva.png)
+![eliminar-recursiva.png](https://clonbg.netlify.app/eliminar-recursiva/eliminar-recursiva.png)
 )
 
 

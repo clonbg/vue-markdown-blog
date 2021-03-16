@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "id": "eliminar-recursiva",
+      "categorias": [
+        "Linux", "Terminal", "Scripts"
+      ],
+      "imagen": "/eliminar-recursiva.png",
+      "date": "16 de Marzo de 2021",
+      "title": "Eliminar archivos de forma recursiva",
+      "description": "Vamos a probar a eliminar archivos de forma recursiva desde nuestra terminal, y así, no tener que ir buscando por carpetas dichos archivos..."
+    },
+    {
       "id": "url-radio",
       "categorias": [
         "Aplicaciones","Sonido"

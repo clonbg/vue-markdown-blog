@@ -11,8 +11,6 @@ find ~/carpeta/prueba -name "*.json" -type f
 ```
 
 ![eliminar-recursiva.png](https://clonbg.netlify.app/eliminar-recursiva/eliminar-recursiva.png)
-)
-
 
 
 Ahora solo hay que añadir *-delete* al final del comando y las borrará todas de forma recursiva:

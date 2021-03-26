@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "id": "disown",
+      "categorias": [
+        "Linux","Terminal"
+      ],
+      "imagen": "/disown1.png",
+      "date": "26 de Marzo de 2021",
+      "title": "Como separar un proceso de la terminal con <strong>disown</strong>",
+      "description": "Según la <strong>Wikipedia</strong> en los shells Unix <i>ksh</i>, <i>bash</i>, <i>fish</i> y <i>zsh</i>, el comando incorporado disown se utiliza para eliminar trabajos de la tabla de..."
+    },
+    {
       "id": "eliminar-recursiva",
       "categorias": [
         "Linux", "Terminal", "Scripts"

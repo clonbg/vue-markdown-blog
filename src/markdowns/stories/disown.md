@@ -7,11 +7,11 @@ Esto quiere decir que puede deshacer la asociación de un proceso con la termina
 
 Veamos como se usa, si por ejemplo abrimos *chromium* desde la terminal:
 
-![chromium](disown2)
+![Chromium](https://clonbg.netlify.app/disown/disown2.png)
 
 Cuando cerramos la terminal se cierra *chromium* también. Sin embargo, cuando usamos **disown** podemos cerrar la terminal que el proceso pasa a estar a cargo del nucleo del sistema:
 
-![chromium-disown](disown3)
+![Chromium-disown](https://clonbg.netlify.app/disown/disown3.png)
 
 Incluso nos muestra el *PID* del proceso. Sabiendo eso también podemos *matarlo* desde la terminal con el comando:
 

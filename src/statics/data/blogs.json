@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "id": "ouroboros",
+      "categorias": [
+        "Linux","Docker","Aplicaciones"
+      ],
+      "imagen": "/ouroboros.png",
+      "date": "13 de Abril de 2021",
+      "title": "Actualización automática de contenedores con <strong>Ouroboros</strong>",
+      "description": "La actuaización automática de contenedores te puede evitar mucho tiempo, por no hablar de los agujeros de seguridad de versiones antiguas. Además este método te mantiene informado de la..."
+    },
+    {
       "id": "disown",
       "categorias": [
         "Linux","Terminal"

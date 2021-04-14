@@ -9,13 +9,15 @@ Veamos como funciona.
 Lo primero es crear un @Bot de *Telegram* con el método que nos indica [danielmartingonzalez.com](https://www.danielmartingonzalez.com/es/notificaciones-de-home-assistant-en-telegram/#bots-en-telegram). Una vez tengas el *API Token* y el *Chat ID* podriamos levantar un contenedor de la siguiente forma:
 
 ```
-docker run -d --name=Ouroboros --hostname=ouroboros --network=host --restart=always -v /var/run/docker.sock:/var/run/docker.sock -e CLEANUP=true -e TZ='Europe/Madrid' -e INTERVAL=300 -e NOTIFIERS="tgram://API_Token/Chat_ID/" pyouroboros/ouroboros:latest
+docker run -d --name=Ouroboros --hostname=ouroboros --network=host --restart=always -v /var/run/docker.sock:/var/run/docker.sock -e CLEANUP=true -e TZ='Europe/Madrid' -e INTERVAL=1200 -e NOTIFIERS="tgram://API_Token/Chat_ID/" pyouroboros/ouroboros:latest
 ```
 Esto creará una instancia que se mantendrá en funcionamiento y cada 1200 segundos (20 minutos) vigilará si hay alguna actualización posible. Cuando haya actualizado un contenedor te mandará un mensaje a *Telegram* de este tipo:
 
 ![VueJs](https://clonbg.netlify.app/ouroboros/telegram.png)
 
-Como extra también puedes decirle que contenedores quieres que no sean monitorizados añadiendo ```-e IGNORE="contenedor1 contenedor2..."```
+Tiene un par de extras:
+- Puedes decirle que contenedores quieres que no sean monitorizados añadiendo ```-e IGNORE="contenedor1 contenedor2..."```
+- Elimina las imagenes anteriores para que no te ocupen espacio.
 
 Visto en [www.danielmartingonzalez.com](https://www.danielmartingonzalez.com/es/actualizacion-automatica-de-contenedores/)
 

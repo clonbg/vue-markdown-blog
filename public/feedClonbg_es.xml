@@ -14,6 +14,26 @@
 <height>65</height>
 </image>
 <item>
+<title>Actualización automática de contenedores con <strong>Ouroboros</strong></title>
+	<link>https://clonbg.netlify.app/#/stories/ouroboros</link>
+	<pubDate>Tue, 13 Apr 2021 10:33:26 -0400</pubDate>
+  	<description><![CDATA[<img src="https://clonbg.netlify.app/ouroboros/ouroboros.png" class="webfeedsFeaturedVisual" alt="" /><p>La actuaización automática de contenedores te puede evitar mucho tiempo, por no hablar de los agujeros de seguridad de versiones antiguas. Además este método te mantiene informado de la...<br><a
+    href="https://clonbg.netlify.app/#/stories/ouroboros"
+    target="_blank"
+    >Leer más</a></p>]]></description>
+<guid>https://clonbg.netlify.app/ouroboros/ouroboros.png</guid>
+</item>
+<item>
+<title>Sincronizar automáticamente subtítulos utilizando el aprendizaje automático con autosubsync</title>
+<link>https://clonbg.netlify.app/#/stories/autosubsync</link>
+<pubDate>Mon, 15 Feb 2021 10:33:26 -0400</pubDate>
+  <description><![CDATA[<img src="https://clonbg.netlify.app/autosubsync/autosubsync.PNG" class="webfeedsFeaturedVisual" alt="" /><p>Muchas veces cuando tienes que sincronizar un subtítulo, bien por que es para otra versión del video o por el motivo que sea, tenemos que...<br><a
+    href="https://clonbg.netlify.app/#/stories/autosubsync"
+    target="_blank"
+    >Leer más</a></p>]]></description>
+<guid>https://clonbg.netlify.app/autosubsync/autosubsync.PNG</guid>
+</item>
+<item>
 <title>Como separar un proceso de la terminal con <strong>disown</strong></title>
 <link>https://clonbg.netlify.app/#/stories/disown</link>
 <pubDate>Sun, 24 Jan 2021 10:33:26 -0400</pubDate>

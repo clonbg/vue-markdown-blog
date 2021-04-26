@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "id": "docker-sin-sudo",
+      "categorias": [
+        "Linux", "Terminal", "Docker"
+      ],
+      "imagen": "/docker.png",
+      "date": "26 de Abril de 2021",
+      "title": "Usar <strong>docker</strong> con tu usuario sin <i>sudo</i>",
+      "description": "El como usar <strong>docker</strong> sin <i>sudo</i> es posiblemente una de las cosas que más veces he buscado en internet, nunca recuerdo como se hace. Por eso voy a ponerlo aquí para poder consultarlo..."
+    },
+    {
       "id": "ouroboros",
       "categorias": [
         "Linux","Docker","Aplicaciones"

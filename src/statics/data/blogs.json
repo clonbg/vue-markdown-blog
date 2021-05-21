@@ -1,9 +1,22 @@
 {
   "stories": [
     {
+      "id": "script-debian-updates",
+      "categorias": [
+        "Linux",
+        "Scripts"
+      ],
+      "imagen": "/script-debian-updates.png",
+      "date": "22 de Mayo de 2021",
+      "title": "Comprobar actualizaciones en <strong>Debian</strong>",
+      "description": "Cada vez que enciendo el ordenador, por costumbre, actualizo el sistema. Es una costumbre adquirida cuando he usado Arch Linux (todavía lo tengo en otros equipos), ya que este cada poquito tiempo tenía actualizaciones..."
+    },
+    {
       "id": "docker-sin-sudo",
       "categorias": [
-        "Linux", "Terminal", "Docker"
+        "Linux",
+        "Terminal",
+        "Docker"
       ],
       "imagen": "/docker.png",
       "date": "26 de Abril de 2021",
@@ -13,7 +26,9 @@
     {
       "id": "ouroboros",
       "categorias": [
-        "Linux","Docker","Aplicaciones"
+        "Linux",
+        "Docker",
+        "Aplicaciones"
       ],
       "imagen": "/ouroboros.png",
       "date": "13 de Abril de 2021",
@@ -23,7 +38,8 @@
     {
       "id": "disown",
       "categorias": [
-        "Linux","Terminal"
+        "Linux",
+        "Terminal"
       ],
       "imagen": "/disown1.png",
       "date": "26 de Marzo de 2021",
@@ -33,7 +49,9 @@
     {
       "id": "eliminar-recursiva",
       "categorias": [
-        "Linux", "Terminal", "Scripts"
+        "Linux",
+        "Terminal",
+        "Scripts"
       ],
       "imagen": "/eliminar-recursiva.png",
       "date": "16 de Marzo de 2021",
@@ -43,7 +61,8 @@
     {
       "id": "url-radio",
       "categorias": [
-        "Aplicaciones","Sonido"
+        "Aplicaciones",
+        "Sonido"
       ],
       "imagen": "/url-radio.png",
       "date": "19 de Febrero de 2021",
@@ -53,7 +72,9 @@
     {
       "id": "autosubsync",
       "categorias": [
-        "Terminal","Python","Aplicaciones"
+        "Terminal",
+        "Python",
+        "Aplicaciones"
       ],
       "imagen": "/autosubsync.PNG",
       "date": "15 de Febrero de 2021",
@@ -63,7 +84,9 @@
     {
       "id": "copiar-mover-find",
       "categorias": [
-        "Linux", "Terminal", "Scripts"
+        "Linux",
+        "Terminal",
+        "Scripts"
       ],
       "imagen": "/copiar-mover-find.png",
       "date": "8 de Febrero de 2021",
@@ -73,7 +96,10 @@
     {
       "id": "docker-acestream",
       "categorias": [
-        "Linux","Docker","Aplicaciones","Imagen"
+        "Linux",
+        "Docker",
+        "Aplicaciones",
+        "Imagen"
       ],
       "imagen": "/docker-acestream.jpeg",
       "date": "24 de Enero de 2021",
@@ -83,7 +109,8 @@
     {
       "id": "reinicio-programado",
       "categorias": [
-        "Linux","Scripts"
+        "Linux",
+        "Scripts"
       ],
       "imagen": "/crontab.png",
       "date": "5 de Enero de 2021",
@@ -105,7 +132,8 @@
     {
       "id": "watchtower",
       "categorias": [
-        "Aplicaciones","Docker"
+        "Aplicaciones",
+        "Docker"
       ],
       "imagen": "/watchtower.png",
       "date": "22 de Noviembre de 2020",
